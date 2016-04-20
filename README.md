@@ -42,3 +42,21 @@ example for metadata of the request (```request.json```)
  - XML example project 3: https://github.com/zazi/UvA-Q-and-A/blob/master/project.bf48af2f-1b5b-3410-984a-0ca773c53930.json
  - XML example project 4: https://github.com/zazi/UvA-Q-and-A/blob/master/project.9b475caf-cad1-ce8c-35b5-815becd60fc3.json
 - CSV: https://github.com/zazi/UvA-Q-and-A/blob/master/project.d60ee1d3-ac0b-16e5-6050-a138299485d2.json
+
+push project to (another) d:swarm instance
+
+1. robust import
+
+    ```
+        curl -v -XPOST -H "Content-Type: application/json"  -d"@[FILE NAME].json" http://[HOSTNAME OR IP TO YOUR D:SWARM INSTANCE]/dmp/projects/robust
+    ```
+    **note**: it could be the case that this endpoint is not (yet) available at your d:swarm instance
+    
+    
+2. normal import
+
+    ```
+        curl -v -XPOST -H "Content-Type: application/json"  -d"@[FILE NAME].json" http://[HOSTNAME OR IP TO YOUR D:SWARM INSTANCE]/dmp/projects
+    ```
+
+**note**: please don't forget ro replace the variable parts (i.e. that one in '[]') with concrete things
