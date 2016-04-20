@@ -1,0 +1,11 @@
+DataModel-fbf2e242-0a6b-4306-9264-d0ff420398b1 - http://www.openarchives.org/OAI/2.0/recordType
+
+DataModel-cf998267-392a-4d87-a33a-88dd1bffb016 - http://purl.org/ontology/bibo/Document
+
+DataModel-a65018b1-d27b-4125-9eff-5f6fd860079d - http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib#recordType
+
+DataModel-fbf2e242-0a6b-4306-9264-d0ff420398b1 - http://www.openarchives.org/OAI/2.0/recordType
+
+5fddf2c5-916b-49dc-a07d-af04020c17f7 - http://data.slub-dresden.de/schemas/Schema-5664ba0e-ccb3-4b71-8823-13281490de30/RecordType
+
+DataModel-502401d8-7293-4f12-9e31-4ce2943c222c - http://www.openarchives.org/OAI/2.0/recordType

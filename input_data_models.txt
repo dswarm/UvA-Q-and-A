@@ -1,0 +1,12 @@
+ef4dc7cc-1fa4-d418-fa83-c43c843423c7 - http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#recordType
+
+95184270-8e10-463c-f515-9b4d585cb705 - http://www.openarchives.org/OAI/2.0/recordType
+
+95184270-8e10-463c-f515-9b4d585cb705 - http://www.openarchives.org/OAI/2.0/recordType
+
+95184270-8e10-463c-f515-9b4d585cb705 - http://www.openarchives.org/OAI/2.0/recordType
+
+95184270-8e10-463c-f515-9b4d585cb705 - http://www.openarchives.org/OAI/2.0/recordType
+
+c4ab3fd6-d37f-2285-f0e4-079595482647 - http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType
+

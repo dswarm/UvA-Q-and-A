@@ -1,0 +1,1775 @@
+[
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d": [
+      {
+        "id": 1200,
+        "uuid": "-2774196477068202564",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1234,
+          "v": "100 Years of Radio., Proceedings of the 1995 International Conference on"
+        }
+      },
+      {
+        "id": 1201,
+        "uuid": "-1444736998512316018",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1235,
+          "v": "3533"
+        }
+      },
+      {
+        "id": 1202,
+        "uuid": "-9084106892837782081",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1236,
+          "v": "1995"
+        }
+      },
+      {
+        "id": 1203,
+        "uuid": "-8280819169999278904",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1237,
+          "v": "0537-9989"
+        }
+      },
+      {
+        "id": 1204,
+        "uuid": "-3520742717623106887",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1238,
+          "v": "0-85296-649-0"
+        }
+      },
+      {
+        "id": 1205,
+        "uuid": "-2239502876954272309",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1239,
+          "v": "Communication, Networking & Broadcasting"
+        }
+      },
+      {
+        "id": 1206,
+        "uuid": "9194059724870879641",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1240,
+          "v": ""
+        }
+      },
+      {
+        "id": 1207,
+        "uuid": "-5391082830811732408",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1241,
+          "v": "1988-01-01 00:00:00"
+        }
+      },
+      {
+        "id": 1208,
+        "uuid": "-5169133154794326615",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1242,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=3533"
+        }
+      },
+      {
+        "id": 1209,
+        "uuid": "-3472184353592772271",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1243,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1210,
+        "uuid": "2604481915853868448",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1244,
+          "v": ""
+        }
+      },
+      {
+        "id": 1211,
+        "uuid": "-110727873643850833",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1245,
+          "v": ""
+        }
+      },
+      {
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1212,
+        "uuid": "-2979143063260072116",
+        "s": {
+          "id": 1231,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/230bfd59-fe56-4031-a502-81e299e92d6d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1246,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f": [
+      {
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1213,
+        "uuid": "-7376521606795195335",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1248,
+          "v": "10th Annual Symposium on Frequency Control"
+        }
+      },
+      {
+        "id": 1214,
+        "uuid": "8485966545910782886",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1249,
+          "v": "10292"
+        }
+      },
+      {
+        "id": 1215,
+        "uuid": "953205456096112560",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1250,
+          "v": "1956"
+        }
+      },
+      {
+        "id": 1216,
+        "uuid": "7952088966725762778",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1251,
+          "v": ""
+        }
+      },
+      {
+        "id": 1217,
+        "uuid": "-5956993349231419833",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1252,
+          "v": ""
+        }
+      },
+      {
+        "id": 1218,
+        "uuid": "-3848422167032360951",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1253,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1219,
+        "uuid": "6530599366166822527",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1254,
+          "v": ""
+        }
+      },
+      {
+        "id": 1220,
+        "uuid": "8123034409909327492",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1255,
+          "v": "2005-12-05 09:29:25"
+        }
+      },
+      {
+        "id": 1221,
+        "uuid": "4042588855729663882",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1256,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10292"
+        }
+      },
+      {
+        "id": 1222,
+        "uuid": "-3862978811286604555",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1257,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1223,
+        "uuid": "7976943108457180040",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1258,
+          "v": ""
+        }
+      },
+      {
+        "id": 1224,
+        "uuid": "-8651791352567417756",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1259,
+          "v": ""
+        }
+      },
+      {
+        "id": 1225,
+        "uuid": "-3029065190276872150",
+        "s": {
+          "id": 1247,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/208da771-d2c6-4dda-83ed-2119017c2d5f",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1260,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002": [
+      {
+        "id": 1226,
+        "uuid": "-2176994912118410116",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1262,
+          "v": "11th Annual Symposium on Frequency Control"
+        }
+      },
+      {
+        "id": 1227,
+        "uuid": "8864909490648314167",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1263,
+          "v": "10293"
+        }
+      },
+      {
+        "id": 1228,
+        "uuid": "3766384668509464293",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1264,
+          "v": "1957"
+        }
+      },
+      {
+        "id": 1229,
+        "uuid": "-8275663759306423637",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1265,
+          "v": ""
+        }
+      },
+      {
+        "id": 1230,
+        "uuid": "7715556893999558121",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1266,
+          "v": ""
+        }
+      },
+      {
+        "id": 1231,
+        "uuid": "-2570402697700196841",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1267,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1232,
+        "uuid": "3796920208318323612",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1268,
+          "v": ""
+        }
+      },
+      {
+        "id": 1233,
+        "uuid": "6444496135528360209",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1269,
+          "v": "2005-12-05 09:29:25"
+        }
+      },
+      {
+        "id": 1234,
+        "uuid": "6438183784600673662",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1270,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10293"
+        }
+      },
+      {
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1235,
+        "uuid": "-8875602612173688526",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1271,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1236,
+        "uuid": "-7365215073884803331",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1272,
+          "v": ""
+        }
+      },
+      {
+        "id": 1237,
+        "uuid": "-5748238804011105145",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1273,
+          "v": ""
+        }
+      },
+      {
+        "id": 1238,
+        "uuid": "100620635248461176",
+        "s": {
+          "id": 1261,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/08cf0aca-8e7e-47d0-bc68-3cb19a46b002",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1274,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d": [
+      {
+        "id": 1239,
+        "uuid": "4490754019333657296",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1276,
+          "v": "12th Annual Symposium on Frequency Control"
+        }
+      },
+      {
+        "id": 1240,
+        "uuid": "-2192113969086312951",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1277,
+          "v": "10294"
+        }
+      },
+      {
+        "id": 1241,
+        "uuid": "-3158317762729574554",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1278,
+          "v": "1958"
+        }
+      },
+      {
+        "id": 1242,
+        "uuid": "-4372652299489577226",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1279,
+          "v": ""
+        }
+      },
+      {
+        "id": 1243,
+        "uuid": "-1896374384759478838",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1280,
+          "v": ""
+        }
+      },
+      {
+        "id": 1244,
+        "uuid": "6745734512744552231",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1281,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1245,
+        "uuid": "802408467533110769",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1282,
+          "v": ""
+        }
+      },
+      {
+        "id": 1246,
+        "uuid": "-1542028829872601264",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1283,
+          "v": "2005-12-05 09:29:25"
+        }
+      },
+      {
+        "id": 1247,
+        "uuid": "3285212137678124016",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1284,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10294"
+        }
+      },
+      {
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1248,
+        "uuid": "1911234670411529872",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1285,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1249,
+        "uuid": "-6167915824475606984",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1286,
+          "v": ""
+        }
+      },
+      {
+        "id": 1250,
+        "uuid": "2075089428852084536",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1287,
+          "v": ""
+        }
+      },
+      {
+        "id": 1251,
+        "uuid": "5731401969809041141",
+        "s": {
+          "id": 1275,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/79f219c9-d597-4ccf-b12c-df1ade8eb25d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1288,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d": [
+      {
+        "id": 1252,
+        "uuid": "-5237300521852658767",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1290,
+          "v": "13th Annual Symposium on Frequency Control"
+        }
+      },
+      {
+        "id": 1253,
+        "uuid": "-3362964874423183764",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1291,
+          "v": "10295"
+        }
+      },
+      {
+        "id": 1254,
+        "uuid": "5718459261859617814",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1292,
+          "v": "1959"
+        }
+      },
+      {
+        "id": 1255,
+        "uuid": "3751047899891253602",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1293,
+          "v": ""
+        }
+      },
+      {
+        "id": 1256,
+        "uuid": "-4436185184859041895",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1294,
+          "v": ""
+        }
+      },
+      {
+        "id": 1257,
+        "uuid": "-4703069334032112783",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1295,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1258,
+        "uuid": "8128393946319654172",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1296,
+          "v": ""
+        }
+      },
+      {
+        "id": 1259,
+        "uuid": "2346856193252338630",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1297,
+          "v": "2005-12-05 09:29:25"
+        }
+      },
+      {
+        "id": 1260,
+        "uuid": "6390707801003519230",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1298,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10295"
+        }
+      },
+      {
+        "id": 1261,
+        "uuid": "8678904906107732116",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1299,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1262,
+        "uuid": "2562646490188036429",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1300,
+          "v": ""
+        }
+      },
+      {
+        "id": 1263,
+        "uuid": "-3555077762142344189",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1301,
+          "v": ""
+        }
+      },
+      {
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1264,
+        "uuid": "1841919782418347810",
+        "s": {
+          "id": 1289,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/05525848-0f72-4df5-bc26-5496b22a054d",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1302,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7": [
+      {
+        "id": 1265,
+        "uuid": "-3593026128126812832",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1304,
+          "v": "14th Annual Symposium on Frequency Control. 1960"
+        }
+      },
+      {
+        "id": 1266,
+        "uuid": "-2368676505578215546",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1305,
+          "v": "10296"
+        }
+      },
+      {
+        "id": 1267,
+        "uuid": "4505923773531625133",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1306,
+          "v": "1960"
+        }
+      },
+      {
+        "id": 1268,
+        "uuid": "-3669872110342599641",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1307,
+          "v": ""
+        }
+      },
+      {
+        "id": 1269,
+        "uuid": "5827773081935012957",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1308,
+          "v": ""
+        }
+      },
+      {
+        "id": 1270,
+        "uuid": "9183503629472603734",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1309,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1271,
+        "uuid": "5134378829003396581",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1310,
+          "v": ""
+        }
+      },
+      {
+        "id": 1272,
+        "uuid": "-8655635559262134253",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1311,
+          "v": "2005-12-05 09:29:25"
+        }
+      },
+      {
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1273,
+        "uuid": "-3656085548218926335",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1312,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10296"
+        }
+      },
+      {
+        "id": 1274,
+        "uuid": "9022128687573564582",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1313,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1275,
+        "uuid": "5034498621392278805",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1314,
+          "v": ""
+        }
+      },
+      {
+        "id": 1276,
+        "uuid": "-7567541838384698605",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1315,
+          "v": ""
+        }
+      },
+      {
+        "id": 1277,
+        "uuid": "-4248113941386522421",
+        "s": {
+          "id": 1303,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4aaccb11-0f97-4376-98b0-e2a15eb739e7",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1316,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a": [
+      {
+        "id": 1278,
+        "uuid": "8973459251389236900",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1318,
+          "v": "15th Annual Symposium on Frequency Control. 1961"
+        }
+      },
+      {
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1279,
+        "uuid": "-3011480990216887982",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1319,
+          "v": "10297"
+        }
+      },
+      {
+        "id": 1280,
+        "uuid": "-6964078093365306878",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1320,
+          "v": "1961"
+        }
+      },
+      {
+        "id": 1281,
+        "uuid": "2720662851447583766",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1321,
+          "v": ""
+        }
+      },
+      {
+        "id": 1282,
+        "uuid": "-372530498376805689",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1322,
+          "v": ""
+        }
+      },
+      {
+        "id": 1283,
+        "uuid": "-8744734187546206248",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1323,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1284,
+        "uuid": "-7381628731946539548",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1324,
+          "v": ""
+        }
+      },
+      {
+        "id": 1285,
+        "uuid": "-4046483785474969596",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1325,
+          "v": "2005-12-05 09:29:25"
+        }
+      },
+      {
+        "id": 1286,
+        "uuid": "-8462080832353812925",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1326,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10297"
+        }
+      },
+      {
+        "id": 1287,
+        "uuid": "1785758824875230627",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1327,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1288,
+        "uuid": "-2226080066017061614",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1328,
+          "v": ""
+        }
+      },
+      {
+        "id": 1289,
+        "uuid": "-8331626284248896333",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1329,
+          "v": ""
+        }
+      },
+      {
+        "id": 1290,
+        "uuid": "262565783013772186",
+        "s": {
+          "id": 1317,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/4371ee10-8edc-4012-8aa0-4ec973f9de8a",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1330,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2": [
+      {
+        "id": 1291,
+        "uuid": "-3282008883939258881",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1332,
+          "v": "16th Annual Symposium on Frequency Control. 1962"
+        }
+      },
+      {
+        "id": 1292,
+        "uuid": "-8465985523128334454",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1333,
+          "v": "10298"
+        }
+      },
+      {
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1293,
+        "uuid": "3676770512485942410",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1334,
+          "v": "1962"
+        }
+      },
+      {
+        "id": 1294,
+        "uuid": "7466725075837590155",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1335,
+          "v": ""
+        }
+      },
+      {
+        "id": 1295,
+        "uuid": "-8014262806687783102",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1336,
+          "v": ""
+        }
+      },
+      {
+        "id": 1296,
+        "uuid": "4676631057187381470",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1337,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1297,
+        "uuid": "-4509700863442045213",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1338,
+          "v": ""
+        }
+      },
+      {
+        "id": 1298,
+        "uuid": "-7337970338830919092",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1339,
+          "v": "2005-12-05 09:29:25"
+        }
+      },
+      {
+        "id": 1299,
+        "uuid": "-821442429777765102",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1340,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10298"
+        }
+      },
+      {
+        "id": 1300,
+        "uuid": "-8156099778298618107",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1341,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1301,
+        "uuid": "1224544135977496773",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1342,
+          "v": ""
+        }
+      },
+      {
+        "id": 1302,
+        "uuid": "-3341321579606455286",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1343,
+          "v": ""
+        }
+      },
+      {
+        "id": 1303,
+        "uuid": "263341267850019811",
+        "s": {
+          "id": 1331,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/342368d0-c652-4a96-bd6c-6d94024cd3c2",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1344,
+          "v": ""
+        }
+      }
+    ]
+  },
+  {
+    "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416": [
+      {
+        "id": 1304,
+        "uuid": "5442133985232827460",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#TITLE",
+        "o": {
+          "id": 1346,
+          "v": "17th Annual Symposium on Frequency Control. 1963"
+        }
+      },
+      {
+        "id": 1305,
+        "uuid": "-6162826082776926645",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#PUBLICATION+NUMBER",
+        "o": {
+          "id": 1347,
+          "v": "10332"
+        }
+      },
+      {
+        "id": 1306,
+        "uuid": "-4520030443330242885",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#START+YEAR",
+        "o": {
+          "id": 1348,
+          "v": "1963"
+        }
+      },
+      {
+        "id": 1307,
+        "uuid": "1112855634065090336",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISSN%23",
+        "o": {
+          "id": 1349,
+          "v": ""
+        }
+      },
+      {
+        "id": 1308,
+        "uuid": "-3645604946174426100",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ISBN%23",
+        "o": {
+          "id": 1350,
+          "v": ""
+        }
+      },
+      {
+        "id": 1309,
+        "uuid": "-6954621200463720383",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#Subject+Category",
+        "o": {
+          "id": 1351,
+          "v": "Components, Circuits, Devices & Systems, Engineered Materials, Dielectrics & Plasmas, Fields, Waves & Electromagnetics, Signal Processing & Analysis"
+        }
+      },
+      {
+        "id": 1310,
+        "uuid": "-7774830846609142350",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#EISBN%23",
+        "o": {
+          "id": 1352,
+          "v": ""
+        }
+      },
+      {
+        "id": 1311,
+        "uuid": "-6881058080669440797",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#ADDED+TO+XPLORE",
+        "o": {
+          "id": 1353,
+          "v": "2005-12-05 09:29:26"
+        }
+      },
+      {
+        "id": 1312,
+        "uuid": "-7352972869673574883",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#OPAC+LINK",
+        "o": {
+          "id": 1354,
+          "v": "http://ieeexplore.ieee.org/servlet/opac?punumber=10332"
+        }
+      },
+      {
+        "id": 1313,
+        "uuid": "210668032658666785",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#IEL",
+        "o": {
+          "id": 1355,
+          "v": "*"
+        }
+      },
+      {
+        "id": 1314,
+        "uuid": "7257139328082665492",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP",
+        "o": {
+          "id": 1356,
+          "v": ""
+        }
+      },
+      {
+        "id": 1315,
+        "uuid": "6121747785718707637",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#POP+ALL",
+        "o": {
+          "id": 1357,
+          "v": ""
+        }
+      },
+      {
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": {
+          "uri": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#RecordType"
+        }
+      },
+      {
+        "id": 1316,
+        "uuid": "-6205931235822385530",
+        "s": {
+          "id": 1345,
+          "uri": "http://data.slub-dresden.de/datamodels/c4ab3fd6-d37f-2285-f0e4-079595482647/records/1b96a57d-0434-4275-8669-b7045f780416",
+          "data_model": "http://data.slub-dresden.de/datamodel/c4ab3fd6-d37f-2285-f0e4-079595482647/data"
+        },
+        "p": "http://data.slub-dresden.de/schemas/Schema-321fcffd-3f79-410c-95fe-0190e2e275c5#CSMDL",
+        "o": {
+          "id": 1358,
+          "v": ""
+        }
+      }
+    ]
+  }
+]

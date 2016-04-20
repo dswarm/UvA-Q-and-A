@@ -1,0 +1,16 @@
+{
+  "data_model_uri": "http://data.slub-dresden.de/datamodel/95184270-8e10-463c-f515-9b4d585cb705/data",
+  "content_schema": {
+    "record_identifier_attribute_path": "http://www.openarchives.org/OAI/2.0/header\u001ehttp://www.openarchives.org/OAI/2.0/identifier\u001ehttp://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "key_attribute_paths": [
+      "http://www.openarchives.org/OAI/2.0/metadata\u001ehttp://www.loc.gov/MARC21/slim#record\u001ehttp://www.loc.gov/MARC21/slim#datafield\u001ehttp://www.loc.gov/MARC21/slim#tag",
+      "http://www.openarchives.org/OAI/2.0/metadata\u001ehttp://www.loc.gov/MARC21/slim#record\u001ehttp://www.loc.gov/MARC21/slim#datafield\u001ehttp://www.loc.gov/MARC21/slim#ind1",
+      "http://www.openarchives.org/OAI/2.0/metadata\u001ehttp://www.loc.gov/MARC21/slim#record\u001ehttp://www.loc.gov/MARC21/slim#datafield\u001ehttp://www.loc.gov/MARC21/slim#ind2",
+      "http://www.openarchives.org/OAI/2.0/metadata\u001ehttp://www.loc.gov/MARC21/slim#record\u001ehttp://www.loc.gov/MARC21/slim#datafield\u001ehttp://www.loc.gov/MARC21/slim#subfield\u001ehttp://www.loc.gov/MARC21/slim#code"
+    ],
+    "value_attribute_path": "http://www.openarchives.org/OAI/2.0/metadata\u001ehttp://www.loc.gov/MARC21/slim#record\u001ehttp://www.loc.gov/MARC21/slim#datafield\u001ehttp://www.loc.gov/MARC21/slim#subfield\u001ehttp://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+  },
+  "deprecate_missing_records": "true",
+  "record_class_uri": "http://www.openarchives.org/OAI/2.0/recordType",
+  "enable_versioning": "false"
+}

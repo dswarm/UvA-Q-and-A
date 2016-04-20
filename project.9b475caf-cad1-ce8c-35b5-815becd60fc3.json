@@ -1,0 +1,2794 @@
+{
+  "uuid": "9b475caf-cad1-ce8c-35b5-815becd60fc3",
+  "name": "XML example project 4",
+  "description": "OAI-PMH + MARCXML (source) & KIM Titeldaten (target)",
+  "mappings": [
+    {
+      "uuid": "43fb8105-3f4e-d96f-b300-068d135f17b9",
+      "name": "author",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "d82e8557-8af8-86fd-fa76-e454fedf9748",
+          "name": "metadata_record_datafield_subfield_value__d82e8557-8af8-86fd-fa76-e454fedf9748",
+          "attribute_path": {
+            "uuid": "AttributePath-84c26472-366a-49a9-afdd-d3264bf8e4f7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "ee0573e6-fcb8-73c4-0619-c2e8940f39a2",
+            "name": null,
+            "expression": "[{\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#tag\":\"100\",\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#subfield\\u001ehttp://www.loc.gov/MARC21/slim#code\":\"a\"}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "be78b135-8b55-4f9f-dd22-11eb9d03a343",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__be78b135-8b55-4f9f-dd22-11eb9d03a343",
+        "attribute_path": {
+          "uuid": "AttributePath-47934f11-951f-4673-8dfe-87d8f29d6613",
+          "attributes": [
+            {
+              "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+              "name": "creator",
+              "uri": "http://purl.org/dc/elements/1.1/creator"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "f9b366dd-b63d-d89f-edd5-d2fcc5fc3d29",
+      "name": "title",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "250b8cc7-c9f1-33f9-3451-4c80069e4d5b",
+          "name": "metadata_record_datafield_subfield_value__250b8cc7-c9f1-33f9-3451-4c80069e4d5b",
+          "attribute_path": {
+            "uuid": "AttributePath-84c26472-366a-49a9-afdd-d3264bf8e4f7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "f90eeabb-98c0-ed53-e792-32a1552859bb",
+            "name": null,
+            "expression": "[{\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#tag\":\"245\",\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#subfield\\u001ehttp://www.loc.gov/MARC21/slim#code\":\"a\"}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "258d2382-8b41-aaf6-6b90-b4e01f8e2c72",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__258d2382-8b41-aaf6-6b90-b4e01f8e2c72",
+        "attribute_path": {
+          "uuid": "AttributePath-02777f8d-5f60-4fc4-97e4-0a6012783ff3",
+          "attributes": [
+            {
+              "uuid": "Attribute-faef00b4-f2ca-492b-9d4b-695f9bc1d404",
+              "name": "title",
+              "uri": "http://purl.org/dc/elements/1.1/title"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "fc3f8d1b-4b4a-fb6e-0209-51bcd6aad8af",
+      "name": "identifier",
+      "transformation": {
+        "uuid": "05d9e60f-d85f-4565-3c39-8f9275566175",
+        "name": "transformation",
+        "description": "transformation",
+        "function": {
+          "type": "Transformation",
+          "uuid": "eaa40c73-74d7-351b-6f6a-4262cad87ac5",
+          "name": "transformation",
+          "description": "transformation",
+          "components": [
+            {
+              "uuid": "035f483b-a368-ae75-0ad7-43509d7e977b",
+              "name": "component4b4fc654-3e75-9569-b5a7-50856ed52494",
+              "description": "{\"x\":\"header_identifier_value__9b698e04-eb2c-69e6-5b89-0677a7517f4d\",\"y\":0}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
+                "name": "compose",
+                "description": "Add pre- or postfix to a string.",
+                "function_description": {
+                  "name": "compose",
+                  "dsl": "metafacture",
+                  "reference": "compose",
+                  "description": "Add pre- or postfix to a string.",
+                  "parameters": {
+                    "prefix": {
+                      "type": "text",
+                      "optional": true
+                    },
+                    "postfix": {
+                      "type": "text",
+                      "optional": true
+                    }
+                  }
+                },
+                "parameters": [
+                  "prefix",
+                  "postfix"
+                ]
+              },
+              "input_components": null,
+              "output_components": null,
+              "parameter_mappings": {
+                "prefix": "http://example.com/resources/",
+                "inputString": "header_identifier_value__9b698e04-eb2c-69e6-5b89-0677a7517f4d"
+              }
+            }
+          ],
+          "function_description": null,
+          "parameters": null
+        },
+        "input_components": null,
+        "output_components": null,
+        "parameter_mappings": {
+          "header_identifier_value__9b698e04-eb2c-69e6-5b89-0677a7517f4d": "header_identifier_value__9b698e04-eb2c-69e6-5b89-0677a7517f4d",
+          "__TRANSFORMATION_OUTPUT_VARIABLE__30ec0ef5-9be2-ebdb-8be4-f1550a0151c1": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__30ec0ef5-9be2-ebdb-8be4-f1550a0151c1"
+        }
+      },
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "9b698e04-eb2c-69e6-5b89-0677a7517f4d",
+          "name": "header_identifier_value__9b698e04-eb2c-69e6-5b89-0677a7517f4d",
+          "attribute_path": {
+            "uuid": "AttributePath-772640bb-dbf0-45cf-b3a5-0bac62a64351",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "30ec0ef5-9be2-ebdb-8be4-f1550a0151c1",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__30ec0ef5-9be2-ebdb-8be4-f1550a0151c1",
+        "attribute_path": {
+          "uuid": "AttributePath-0bbc2366-50c1-43ba-ab60-396505f9a3b7",
+          "attributes": [
+            {
+              "uuid": "Attribute-1240c9a9-1fb1-4086-8f06-f3a476d9b2c3",
+              "name": "about",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#about"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "33d0f10d-9fdc-e8f9-a1fe-efd8ec066bf3",
+      "name": "type",
+      "transformation": {
+        "uuid": "30366b64-6094-3f42-b621-400741507562",
+        "name": "transformation",
+        "description": "transformation",
+        "function": {
+          "type": "Transformation",
+          "uuid": "6f4336a5-d03b-aa61-c101-de169bb51b9c",
+          "name": "transformation",
+          "description": "transformation",
+          "components": [
+            {
+              "uuid": "f092f2ef-a2b3-5c94-ee38-f6f04787b6ff",
+              "name": "component7b08437b-342b-2652-9d6c-2183c316bbb2",
+              "description": "{\"x\":\"header_identifier_value__19b1dae9-e472-de7e-8884-25eb985f81e3\",\"y\":0}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-8f5a6192-b8c2-4ba9-97b5-cef74912d1a7",
+                "name": "constant",
+                "description": "Sets literal value to a constant.",
+                "function_description": {
+                  "name": "constant",
+                  "dsl": "metafacture",
+                  "reference": "constant",
+                  "description": "Sets literal value to a constant.",
+                  "parameters": {
+                    "value": {
+                      "type": "text"
+                    }
+                  }
+                },
+                "parameters": [
+                  "value"
+                ]
+              },
+              "input_components": null,
+              "output_components": [
+                {
+                  "uuid": "9ff33cf1-2d02-60df-6315-8dac98a401ea"
+                }
+              ],
+              "parameter_mappings": {
+                "inputString": "header_identifier_value__19b1dae9-e472-de7e-8884-25eb985f81e3",
+                "value": "http://purl.org/ontology/bibo/Book"
+              }
+            },
+            {
+              "uuid": "9ff33cf1-2d02-60df-6315-8dac98a401ea",
+              "name": "component471a9ca1-bfa6-8b1a-c293-6d39d5e7c846",
+              "description": "{\"x\":\"header_identifier_value__19b1dae9-e472-de7e-8884-25eb985f81e3\",\"y\":1}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-0574ea1f-1578-4c28-9bc3-9729477032b2",
+                "name": "convert-value",
+                "description": "Convert a value to a certain value type, e.g., RESOURCE, LITERAL or BNODE.",
+                "function_description": {
+                  "name": "convert-value",
+                  "dsl": "metafacture",
+                  "reference": "convert-value",
+                  "description": "Convert a value to a certain value type, e.g., RESOURCE, LITERAL or BNODE.",
+                  "parameters": {
+                    "type": {
+                      "type": "radio",
+                      "choices": [
+                        "RESOURCE",
+                        "LITERAL",
+                        "BNODE"
+                      ],
+                      "optional": true,
+                      "description": "One of RESOURCE (value will be interpreted as resource URI), LITERAL (string literal) or BNODE (value will be interpreted as bnode identifier),"
+                    },
+                    "errorString": {
+                      "type": "text",
+                      "optional": true,
+                      "description": "Error string that should be written as value, if the input string is not a valid value for the value type (e.g. not an URI if it's a RESOURCE)"
+                    }
+                  }
+                },
+                "parameters": [
+                  "type",
+                  "errorString"
+                ]
+              },
+              "input_components": [
+                {
+                  "uuid": "f092f2ef-a2b3-5c94-ee38-f6f04787b6ff"
+                }
+              ],
+              "output_components": null,
+              "parameter_mappings": {
+                "inputString": "component7b08437b-342b-2652-9d6c-2183c316bbb2",
+                "type": "RESOURCE"
+              }
+            }
+          ],
+          "function_description": null,
+          "parameters": null
+        },
+        "input_components": null,
+        "output_components": null,
+        "parameter_mappings": {
+          "header_identifier_value__19b1dae9-e472-de7e-8884-25eb985f81e3": "header_identifier_value__19b1dae9-e472-de7e-8884-25eb985f81e3",
+          "__TRANSFORMATION_OUTPUT_VARIABLE__aed73214-c0b4-ac16-cb14-efb423537a53": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__aed73214-c0b4-ac16-cb14-efb423537a53"
+        }
+      },
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "19b1dae9-e472-de7e-8884-25eb985f81e3",
+          "name": "header_identifier_value__19b1dae9-e472-de7e-8884-25eb985f81e3",
+          "attribute_path": {
+            "uuid": "AttributePath-772640bb-dbf0-45cf-b3a5-0bac62a64351",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "aed73214-c0b4-ac16-cb14-efb423537a53",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__aed73214-c0b4-ac16-cb14-efb423537a53",
+        "attribute_path": {
+          "uuid": "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+          "attributes": [
+            {
+              "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+              "name": "type",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "f7c591be-f7a4-b25c-452d-cb2f7a41a137",
+      "name": "creator",
+      "transformation": {
+        "uuid": "01a4d5be-33f6-6581-646f-18c2fd048554",
+        "name": "transformation",
+        "description": "transformation",
+        "function": {
+          "type": "Transformation",
+          "uuid": "8f43336d-9618-03df-2033-d080dc7fabd1",
+          "name": "transformation",
+          "description": "transformation",
+          "components": [
+            {
+              "uuid": "22110085-32f7-0ac7-0977-17fc41129299",
+              "name": "component91a3b64e-6015-eb37-9e75-8547bfbc6ca0",
+              "description": "{\"x\":\"metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808\",\"y\":1}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-81d714c9-2dc2-41a5-af19-d3b81ccb8a03",
+                "name": "compose",
+                "description": "Add pre- or postfix to a string.",
+                "function_description": {
+                  "name": "compose",
+                  "dsl": "metafacture",
+                  "reference": "compose",
+                  "description": "Add pre- or postfix to a string.",
+                  "parameters": {
+                    "prefix": {
+                      "type": "text",
+                      "optional": true
+                    },
+                    "postfix": {
+                      "type": "text",
+                      "optional": true
+                    }
+                  }
+                },
+                "parameters": [
+                  "prefix",
+                  "postfix"
+                ]
+              },
+              "input_components": [
+                {
+                  "uuid": "a7c131a5-d5b4-1675-5495-e855e2c95db7"
+                }
+              ],
+              "output_components": [
+                {
+                  "uuid": "3c975d3b-2240-27bf-4351-99414d7f4dea"
+                }
+              ],
+              "parameter_mappings": {
+                "prefix": "https://lobid.org/resource?name=",
+                "inputString": "component0b3af562-156d-ce66-1f78-a84fe73648f4"
+              }
+            },
+            {
+              "uuid": "456d9f7e-e27e-ee4a-9267-867049fff745",
+              "name": "componentaff96825-9074-1628-d5b8-ac81f00a8ddf",
+              "description": "{\"x\":\"metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808\",\"y\":3}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-1bece7f8-e47a-4f20-aa99-ff3604e7925a",
+                "name": "parse-json",
+                "description": "Parses the input value with help of the given JSONPath.",
+                "function_description": {
+                  "name": "parse-json",
+                  "dsl": "metafacture",
+                  "reference": "parse-json",
+                  "description": "Parses the input value with help of the given JSONPath.",
+                  "parameters": {
+                    "jsonPath": {
+                      "type": "text",
+                      "description": "The JSONPath to extract values from the given input JSON value. Note: the JSONPath must conform http://goessner.net/articles/JsonPath/."
+                    },
+                    "errorString": {
+                      "type": "text",
+                      "optional": true,
+                      "description": "Error string that should be written as value, if the JSON parsing fails for some reason."
+                    }
+                  }
+                },
+                "parameters": [
+                  "jsonPath",
+                  "errorString"
+                ]
+              },
+              "input_components": [
+                {
+                  "uuid": "3c975d3b-2240-27bf-4351-99414d7f4dea"
+                }
+              ],
+              "output_components": [
+                {
+                  "uuid": "226e8194-2d28-3e87-7a3d-4f5e6ff7257a"
+                }
+              ],
+              "parameter_mappings": {
+                "errorString": "OMG, SOMETHING WENT WRONG, REALLY",
+                "inputString": "component1bc56da1-7344-537a-df56-87962641bba8",
+                "jsonPath": "$..creator"
+              }
+            },
+            {
+              "uuid": "a7c131a5-d5b4-1675-5495-e855e2c95db7",
+              "name": "component0b3af562-156d-ce66-1f78-a84fe73648f4",
+              "description": "{\"x\":\"metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808\",\"y\":0}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-0eaa9c66-bb6e-4847-870c-e5708a79b203",
+                "name": "urlencode",
+                "description": "Escapes value according to URL encoding rules.",
+                "function_description": {
+                  "name": "urlencode",
+                  "dsl": "metafacture",
+                  "reference": "urlencode",
+                  "description": "Escapes value according to URL encoding rules."
+                },
+                "parameters": null
+              },
+              "input_components": null,
+              "output_components": [
+                {
+                  "uuid": "22110085-32f7-0ac7-0977-17fc41129299"
+                }
+              ],
+              "parameter_mappings": {
+                "inputString": "metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808"
+              }
+            },
+            {
+              "uuid": "3c975d3b-2240-27bf-4351-99414d7f4dea",
+              "name": "component1bc56da1-7344-537a-df56-87962641bba8",
+              "description": "{\"x\":\"metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808\",\"y\":2}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-fbbc7be5-e094-420d-bade-450190fcfbe3",
+                "name": "http-api-request",
+                "description": "HTTP API GET request with the input value as URI. Note: the URI should probably composed in a previous component, i.e., the http-api-request function expects a valid URI. Note: the response needs to be processed in a further component, e.g.,parse-json.",
+                "function_description": {
+                  "name": "http-api-request",
+                  "dsl": "metafacture",
+                  "reference": "http-api-request",
+                  "description": "HTTP API GET request with the input value as URI. Note: the URI should probably composed in a previous component, i.e., the http-api-request function expects a valid URI. Note: the response needs to be processed in a further component, e.g.,parse-json.",
+                  "parameters": {
+                    "acceptType": {
+                      "type": "text",
+                      "optional": true,
+                      "description": "The accept type of the HTTP API request."
+                    },
+                    "errorString": {
+                      "type": "text",
+                      "optional": true,
+                      "description": "Error string that should be written as value, if the HTTP API request fails for some reason."
+                    }
+                  }
+                },
+                "parameters": [
+                  "acceptType",
+                  "errorString"
+                ]
+              },
+              "input_components": [
+                {
+                  "uuid": "22110085-32f7-0ac7-0977-17fc41129299"
+                }
+              ],
+              "output_components": [
+                {
+                  "uuid": "456d9f7e-e27e-ee4a-9267-867049fff745"
+                }
+              ],
+              "parameter_mappings": {
+                "errorString": "OMG, SOMETHING WENT WRONG",
+                "inputString": "component91a3b64e-6015-eb37-9e75-8547bfbc6ca0",
+                "acceptType": "application/json"
+              }
+            },
+            {
+              "uuid": "226e8194-2d28-3e87-7a3d-4f5e6ff7257a",
+              "name": "componentdc83d97e-11d4-b796-b767-b2cf8b302fa5",
+              "description": "{\"x\":\"metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808\",\"y\":4}",
+              "function": {
+                "type": "Function",
+                "uuid": "Function-0574ea1f-1578-4c28-9bc3-9729477032b2",
+                "name": "convert-value",
+                "description": "Convert a value to a certain value type, e.g., RESOURCE, LITERAL or BNODE.",
+                "function_description": {
+                  "name": "convert-value",
+                  "dsl": "metafacture",
+                  "reference": "convert-value",
+                  "description": "Convert a value to a certain value type, e.g., RESOURCE, LITERAL or BNODE.",
+                  "parameters": {
+                    "type": {
+                      "type": "radio",
+                      "choices": [
+                        "RESOURCE",
+                        "LITERAL",
+                        "BNODE"
+                      ],
+                      "optional": true,
+                      "description": "One of RESOURCE (value will be interpreted as resource URI), LITERAL (string literal) or BNODE (value will be interpreted as bnode identifier),"
+                    },
+                    "errorString": {
+                      "type": "text",
+                      "optional": true,
+                      "description": "Error string that should be written as value, if the input string is not a valid value for the value type (e.g. not an URI if it's a RESOURCE)"
+                    }
+                  }
+                },
+                "parameters": [
+                  "type",
+                  "errorString"
+                ]
+              },
+              "input_components": [
+                {
+                  "uuid": "456d9f7e-e27e-ee4a-9267-867049fff745"
+                }
+              ],
+              "output_components": null,
+              "parameter_mappings": {
+                "inputString": "componentaff96825-9074-1628-d5b8-ac81f00a8ddf",
+                "type": "RESOURCE"
+              }
+            }
+          ],
+          "function_description": null,
+          "parameters": null
+        },
+        "input_components": null,
+        "output_components": null,
+        "parameter_mappings": {
+          "metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808": "metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808",
+          "__TRANSFORMATION_OUTPUT_VARIABLE__08d59d77-2d58-f06d-b709-54ba0ce6ec84": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__08d59d77-2d58-f06d-b709-54ba0ce6ec84"
+        }
+      },
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "825d1c2f-be56-58e4-a9cd-58362f9d2808",
+          "name": "metadata_record_datafield_subfield_value__825d1c2f-be56-58e4-a9cd-58362f9d2808",
+          "attribute_path": {
+            "uuid": "AttributePath-84c26472-366a-49a9-afdd-d3264bf8e4f7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "5e6f2c9d-e262-6998-f3fc-7e9dd296022f",
+            "name": null,
+            "expression": "[{\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#tag\":\"245\",\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#subfield\\u001ehttp://www.loc.gov/MARC21/slim#code\":\"a\"}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "08d59d77-2d58-f06d-b709-54ba0ce6ec84",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__08d59d77-2d58-f06d-b709-54ba0ce6ec84",
+        "attribute_path": {
+          "uuid": "AttributePath-47934f11-951f-4673-8dfe-87d8f29d6613",
+          "attributes": [
+            {
+              "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+              "name": "creator",
+              "uri": "http://purl.org/dc/elements/1.1/creator"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "3aeb1f33-1881-eab7-0bb9-65b7e19adc26",
+      "name": "language",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "73ec768f-4b76-14d4-5fec-af790a944b8f",
+          "name": "metadata_record_datafield_subfield_value__73ec768f-4b76-14d4-5fec-af790a944b8f",
+          "attribute_path": {
+            "uuid": "AttributePath-84c26472-366a-49a9-afdd-d3264bf8e4f7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "759c5536-f369-bc1d-4fa0-c91aa1f17530",
+            "name": null,
+            "expression": "[{\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#tag\":\"040\",\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#subfield\\u001ehttp://www.loc.gov/MARC21/slim#code\":\"b\"}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "56dee2cc-9403-2d0a-efaf-81d898e1d595",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__56dee2cc-9403-2d0a-efaf-81d898e1d595",
+        "attribute_path": {
+          "uuid": "AttributePath-807cbed8-02b8-416b-b169-aa4d8ff81217",
+          "attributes": [
+            {
+              "uuid": "Attribute-ff614cac-eb66-4857-bae1-17218920056d",
+              "name": "language",
+              "uri": "http://purl.org/dc/terms/language"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "df250d8c-719d-e5ae-5766-26bcf568d286",
+      "name": "date",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "dc474fb5-1fd9-4e22-503b-4b55f00da5fc",
+          "name": "metadata_record_datafield_subfield_value__dc474fb5-1fd9-4e22-503b-4b55f00da5fc",
+          "attribute_path": {
+            "uuid": "AttributePath-84c26472-366a-49a9-afdd-d3264bf8e4f7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "fc44c25b-4bef-ddd3-0503-1e2bcb9f57b1",
+            "name": null,
+            "expression": "[{\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#tag\":\"260\",\"http://www.openarchives.org/OAI/2.0/metadata\\u001ehttp://www.loc.gov/MARC21/slim#record\\u001ehttp://www.loc.gov/MARC21/slim#datafield\\u001ehttp://www.loc.gov/MARC21/slim#subfield\\u001ehttp://www.loc.gov/MARC21/slim#code\":\"c\"}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "d192c0b4-4a25-bc56-832c-e202d89ee882",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__d192c0b4-4a25-bc56-832c-e202d89ee882",
+        "attribute_path": {
+          "uuid": "AttributePath-21f8b9d7-2b76-483e-90ad-34e18c132270",
+          "attributes": [
+            {
+              "uuid": "Attribute-1efb31bc-d178-46a1-9e25-472b5bcecd12",
+              "name": "issued",
+              "uri": "http://purl.org/dc/terms/issued"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "functions": [],
+  "input_data_model": {
+    "uuid": "95184270-8e10-463c-f515-9b4d585cb705",
+    "name": "XML example config",
+    "description": "XML example config - OAI-PMH + MARCXML record",
+    "configuration": {
+      "uuid": "d603cc11-61bd-438e-56e7-39d7e6dd5ff2",
+      "name": null,
+      "description": null,
+      "resources": [
+        {
+          "uuid": "Resource-5269212a-448d-4b13-8992-3ca8bf6b1a26"
+        }
+      ],
+      "parameters": {
+        "storage_type": "oai-pmh+marcxml",
+        "record_tag": "record"
+      }
+    },
+    "schema": {
+      "uuid": "Schema-5ca8e59f-0f40-4f17-8237-e5d0a6e83f18",
+      "name": "OAI-PMH + MARCXML schema",
+      "attribute_paths": [
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7687fe3f-bb02-415a-b942-4625b936ef59",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+            "attributes": [
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-ea0700dc-bec3-479d-8942-d13681663630",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-ca515ee5-a509-4598-a281-dfd483cd7027",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-b01f6ce7-2d62-462c-98c1-c6b093bdd6ff",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-985b1797-492e-4a03-9007-41fb1e1203a4",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-963c0abd-0521-4c90-964b-361bf39f33aa",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-7d913334-7e9a-47c6-af42-5c7baac570ad",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-1675dff2-fbb2-419c-b437-933ada0ac1b2",
+                "name": "status",
+                "uri": "http://www.openarchives.org/OAI/2.0/status"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1da9c5da-3552-4ee6-b063-9013ae5a3cfc",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-3783ee8c-2d36-4a64-998b-b41c65e0706e",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-2434cb1a-aa7f-4dc8-951d-fba0c5c44008",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a4eaf782-8e40-4d90-8c31-d0d4941c6df2",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-4457814c-53a5-4972-aac2-cee0cf8c1c95",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-772640bb-dbf0-45cf-b3a5-0bac62a64351",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fdfc6848-a588-4c14-a2c1-a7c85e52bb19",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-257aa2b6-e15a-4d15-a782-326f42bb379c",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-2b028c29-16cf-47b1-a671-c26397fb1384",
+                "name": "datestamp",
+                "uri": "http://www.openarchives.org/OAI/2.0/datestamp"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-0fe209ac-8258-4bff-babb-7193aa696c3c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-93bf9a9c-492a-4bcc-81f0-20d9bd3b1030",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-2b028c29-16cf-47b1-a671-c26397fb1384",
+                "name": "datestamp",
+                "uri": "http://www.openarchives.org/OAI/2.0/datestamp"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-36f5e395-1969-467f-a8d5-23dc74bc2221",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a46eae55-543b-4f16-9b50-788310d9265e",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-2b028c29-16cf-47b1-a671-c26397fb1384",
+                "name": "datestamp",
+                "uri": "http://www.openarchives.org/OAI/2.0/datestamp"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-184405fd-c4d1-4276-9203-82a2930b4ad7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8132f3de-e477-4fb1-954a-dd14cf300722",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-49eca422-f15b-4096-8686-0db22eb47e85",
+                "name": "setSpec",
+                "uri": "http://www.openarchives.org/OAI/2.0/setSpec"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8f35f8e9-2074-4f17-812b-d8a9f8e2c367",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-ef60c916-3e08-41b3-8e7b-d5ba1ec54d62",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-49eca422-f15b-4096-8686-0db22eb47e85",
+                "name": "setSpec",
+                "uri": "http://www.openarchives.org/OAI/2.0/setSpec"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-57012208-5c61-4cb4-8c86-dac96d9bdd88",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-cf0d7f97-51a2-4b63-8817-78b207fdc06d",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-49eca422-f15b-4096-8686-0db22eb47e85",
+                "name": "setSpec",
+                "uri": "http://www.openarchives.org/OAI/2.0/setSpec"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1e8aa1fc-682d-4e7b-abce-a26fa77fd150",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-48658cc1-1008-4e4c-a3e2-ffbd221dae77",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d3a20743-b2e8-4792-8ce1-9ae1ed14c5d5",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-10d240f6-d7b1-4b15-85e5-36351e80a84d",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1d604c65-49d8-445a-bfc6-5cc02d15a1d2",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b9fb327e-e5b7-4481-a1f0-128a149d2eba",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-6de82e43-d0a0-496a-a728-4bf393a35eba",
+                "name": "id",
+                "uri": "http://www.loc.gov/MARC21/slim#id"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-796833d1-7433-48d2-bbfb-c78fc74f280a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-d2e4656f-adf3-4f8f-97a0-1ab61dbb58b2",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-81873522-1cd8-499b-a5b8-1f1a224ad088",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-1c9ff7c7-c09a-4383-9b8e-94ed5768f08e",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fac0bcab-798c-4ccf-970e-d4a1fe900988",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-5c3cc488-c457-4120-a3e6-945ef63e4775",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-91326f5c-06db-4866-99c2-81fc27602267",
+                "name": "type",
+                "uri": "http://www.loc.gov/MARC21/slim#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-123f649b-232a-4fd5-a1cc-b513ddb126cb",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-93988fdb-acf1-45b7-8d0b-15b91b5c52e9",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-6de82e43-d0a0-496a-a728-4bf393a35eba",
+                "name": "id",
+                "uri": "http://www.loc.gov/MARC21/slim#id"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7626a79f-81e4-4fd2-bd6d-a2f5f875b306",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-af23c297-a430-4694-829d-c555f32eb4ed",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-fae3e549-c8f4-4210-b667-f47049cb12b8",
+                "name": "leader",
+                "uri": "http://www.loc.gov/MARC21/slim#leader"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3741b3ad-9de8-43d1-9d47-44bfecac8850",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-428fef2d-918b-4e35-bfa2-862028e9c837",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-fae3e549-c8f4-4210-b667-f47049cb12b8",
+                "name": "leader",
+                "uri": "http://www.loc.gov/MARC21/slim#leader"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-90f5bb18-75bf-47c5-bfa4-ed3d9c83d53c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-e136f3cf-c3e7-4cda-aa77-2dfa1c15a76d",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-fae3e549-c8f4-4210-b667-f47049cb12b8",
+                "name": "leader",
+                "uri": "http://www.loc.gov/MARC21/slim#leader"
+              },
+              {
+                "uuid": "Attribute-6de82e43-d0a0-496a-a728-4bf393a35eba",
+                "name": "id",
+                "uri": "http://www.loc.gov/MARC21/slim#id"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-49c3ccb7-6d82-4c38-9319-6ef3e61d9d13",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-40633c71-3a26-4ef4-8465-4ca0f3cde067",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-fae3e549-c8f4-4210-b667-f47049cb12b8",
+                "name": "leader",
+                "uri": "http://www.loc.gov/MARC21/slim#leader"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-eb936b0f-9f5d-446e-bf57-d4d43a61effe",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-3cec5b40-a719-4ac5-822e-8d680f5b918c",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-6ff2d19f-7028-4a2f-99ef-954fa27df505",
+                "name": "controlfield",
+                "uri": "http://www.loc.gov/MARC21/slim#controlfield"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-f8c83b4e-004e-4b01-b80b-38d5900cc620",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-9b8cdc30-91fc-4b06-ab0d-8f1f89f63616",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-6ff2d19f-7028-4a2f-99ef-954fa27df505",
+                "name": "controlfield",
+                "uri": "http://www.loc.gov/MARC21/slim#controlfield"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-00563e92-892f-4caa-8fb3-9ee8f7fe6335",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-51a1dff2-f527-4f6c-9d66-e1f49b5b46f4",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-6ff2d19f-7028-4a2f-99ef-954fa27df505",
+                "name": "controlfield",
+                "uri": "http://www.loc.gov/MARC21/slim#controlfield"
+              },
+              {
+                "uuid": "Attribute-6de82e43-d0a0-496a-a728-4bf393a35eba",
+                "name": "id",
+                "uri": "http://www.loc.gov/MARC21/slim#id"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-86b4fde0-5fda-4a04-98c1-915e8dd1ab1c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-7629f6ce-b8f5-4a16-9489-6d486ffaa47d",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-6ff2d19f-7028-4a2f-99ef-954fa27df505",
+                "name": "controlfield",
+                "uri": "http://www.loc.gov/MARC21/slim#controlfield"
+              },
+              {
+                "uuid": "Attribute-fe4a7309-e300-4b3d-96f8-e2c72e2242dc",
+                "name": "tag",
+                "uri": "http://www.loc.gov/MARC21/slim#tag"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-6df93039-119b-4e55-a59e-62f31c92dfb8",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-4654021d-a975-41c5-866e-7e1ed2b95e98",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-6ff2d19f-7028-4a2f-99ef-954fa27df505",
+                "name": "controlfield",
+                "uri": "http://www.loc.gov/MARC21/slim#controlfield"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1a0f7311-2089-41b3-942d-cc23c1381b5c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f06a040d-5909-4f8d-a0a4-08162e279994",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-c9179f39-bedb-4d8f-9f99-94a8781a2fde",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-97470a84-aeb3-4b8d-92a6-2ca41a67a001",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-39100450-053b-4ed1-8d1c-6b0f80e3919b",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b26e6bbf-eef1-4483-ab4a-d9bd68d9f51e",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-6de82e43-d0a0-496a-a728-4bf393a35eba",
+                "name": "id",
+                "uri": "http://www.loc.gov/MARC21/slim#id"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-54103759-5233-4256-b5d0-bac0371ed9ae",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a8a1b53a-dcc3-4b18-9e99-50bce325f3f0",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-fe4a7309-e300-4b3d-96f8-e2c72e2242dc",
+                "name": "tag",
+                "uri": "http://www.loc.gov/MARC21/slim#tag"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-36c8ff3a-bae9-4ec6-be29-fdfecfbfb153",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8b2c202b-0c2d-45b1-8724-6287b7ab4df2",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-7eb8941b-59a4-434d-a443-4540a2b896bf",
+                "name": "ind1",
+                "uri": "http://www.loc.gov/MARC21/slim#ind1"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-a5bb6ae9-a925-4034-974a-ce8b567564f5",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-558d9180-11f4-4e5c-8531-209d65483912",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-8653be0d-5384-4110-bf66-8c4998072c3c",
+                "name": "ind2",
+                "uri": "http://www.loc.gov/MARC21/slim#ind2"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7cd411a6-5c37-4bf6-8b27-9b894ee694af",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-61a859f9-2e43-4af3-af19-767983d2266a",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-13f80b7b-980f-46f9-8941-3f6e7d80ffd2",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-33f06938-33a7-442d-b188-79acacdcc00d",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-081fc4ad-3271-4ba4-a6b8-f28570b08c4d",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-1503de4a-9893-4c58-9619-81a463b6b445",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-6de82e43-d0a0-496a-a728-4bf393a35eba",
+                "name": "id",
+                "uri": "http://www.loc.gov/MARC21/slim#id"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-6c8ef5a0-b47a-4242-95fb-db05ab2e4425",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-726b6135-517e-4e41-a297-fe21bb587131",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-01a2281f-dbe9-4c9a-8cc0-47576b48261a",
+                "name": "code",
+                "uri": "http://www.loc.gov/MARC21/slim#code"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-dbb68260-4d19-43f3-b700-7900a09bf08c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-84c26472-366a-49a9-afdd-d3264bf8e4f7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-9924abdd-1226-4f66-827f-e78ed66cb843",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f204e1a9-4f68-4418-b167-3047dd9c98b3",
+            "attributes": [
+              {
+                "uuid": "Attribute-d79ef794-1c15-4d93-8f45-ed53167f2e67",
+                "name": "about",
+                "uri": "http://www.openarchives.org/OAI/2.0/about"
+              }
+            ]
+          },
+          "sub_schema": null
+        }
+      ],
+      "record_class": {
+        "uuid": "Clasz-30dae66a-495c-49f7-b04f-6430d6d37399",
+        "name": "recordType",
+        "uri": "http://www.openarchives.org/OAI/2.0/recordType"
+      },
+      "content_schema": {
+        "uuid": "ContentSchema-41e1da84-ebfd-4d78-a18f-7a52aaa1f7b3",
+        "name": "OAI-PMH + MARCXML content schema",
+        "record_identifier_attribute_path": {
+          "uuid": "AttributePath-772640bb-dbf0-45cf-b3a5-0bac62a64351",
+          "attributes": [
+            {
+              "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+              "name": "header",
+              "uri": "http://www.openarchives.org/OAI/2.0/header"
+            },
+            {
+              "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+              "name": "identifier",
+              "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+            },
+            {
+              "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+              "name": "value",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+            }
+          ]
+        },
+        "key_attribute_paths": [
+          {
+            "uuid": "AttributePath-a8a1b53a-dcc3-4b18-9e99-50bce325f3f0",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-fe4a7309-e300-4b3d-96f8-e2c72e2242dc",
+                "name": "tag",
+                "uri": "http://www.loc.gov/MARC21/slim#tag"
+              }
+            ]
+          },
+          {
+            "uuid": "AttributePath-8b2c202b-0c2d-45b1-8724-6287b7ab4df2",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-7eb8941b-59a4-434d-a443-4540a2b896bf",
+                "name": "ind1",
+                "uri": "http://www.loc.gov/MARC21/slim#ind1"
+              }
+            ]
+          },
+          {
+            "uuid": "AttributePath-558d9180-11f4-4e5c-8531-209d65483912",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-8653be0d-5384-4110-bf66-8c4998072c3c",
+                "name": "ind2",
+                "uri": "http://www.loc.gov/MARC21/slim#ind2"
+              }
+            ]
+          },
+          {
+            "uuid": "AttributePath-726b6135-517e-4e41-a297-fe21bb587131",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+                "name": "record",
+                "uri": "http://www.loc.gov/MARC21/slim#record"
+              },
+              {
+                "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+                "name": "datafield",
+                "uri": "http://www.loc.gov/MARC21/slim#datafield"
+              },
+              {
+                "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+                "name": "subfield",
+                "uri": "http://www.loc.gov/MARC21/slim#subfield"
+              },
+              {
+                "uuid": "Attribute-01a2281f-dbe9-4c9a-8cc0-47576b48261a",
+                "name": "code",
+                "uri": "http://www.loc.gov/MARC21/slim#code"
+              }
+            ]
+          }
+        ],
+        "value_attribute_path": {
+          "uuid": "AttributePath-84c26472-366a-49a9-afdd-d3264bf8e4f7",
+          "attributes": [
+            {
+              "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+              "name": "metadata",
+              "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+            },
+            {
+              "uuid": "Attribute-28657a3b-51e1-444d-971e-d0eba78f5316",
+              "name": "record",
+              "uri": "http://www.loc.gov/MARC21/slim#record"
+            },
+            {
+              "uuid": "Attribute-431c0960-da78-485d-bb7e-f6645b3dd52a",
+              "name": "datafield",
+              "uri": "http://www.loc.gov/MARC21/slim#datafield"
+            },
+            {
+              "uuid": "Attribute-59f8187e-5ac3-4ef9-82cc-35212a5f9a1b",
+              "name": "subfield",
+              "uri": "http://www.loc.gov/MARC21/slim#subfield"
+            },
+            {
+              "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+              "name": "value",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+            }
+          ]
+        }
+      }
+    },
+    "deprecated": false,
+    "data_resource": {
+      "uuid": "Resource-5269212a-448d-4b13-8992-3ca8bf6b1a26",
+      "name": "example_oai-pmh_marcxml_record.xml",
+      "description": "XML example - OAI-PMH + MARCXML record",
+      "type": "FILE",
+      "configurations": [
+        {
+          "uuid": "d603cc11-61bd-438e-56e7-39d7e6dd5ff2",
+          "name": null,
+          "description": null,
+          "resources": [
+            {
+              "uuid": "Resource-5269212a-448d-4b13-8992-3ca8bf6b1a26"
+            }
+          ],
+          "parameters": {
+            "storage_type": "oai-pmh+marcxml",
+            "record_tag": "record"
+          }
+        }
+      ],
+      "resource_attributes": {
+        "path": "/data/workspace/tmp/resources/example_oai-pmh_marcxml_record.xml",
+        "filesize": -1,
+        "filetype": "application/xml"
+      }
+    }
+  },
+  "output_data_model": {
+    "uuid": "DataModel-cf998267-392a-4d87-a33a-88dd1bffb016",
+    "name": "Internal Data Model BiboDocument",
+    "description": "Internal Data Model BiboDocument",
+    "schema": {
+      "uuid": "Schema-ff62ec21-0a11-4c27-a704-d7ca53a21521",
+      "name": "bibo:Document-Schema (KIM-Titeldaten)",
+      "attribute_paths": [
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-76cfb4c0-2ba1-4914-82b2-df4e8c9b7d4e",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-0bbc2366-50c1-43ba-ab60-396505f9a3b7",
+            "attributes": [
+              {
+                "uuid": "Attribute-1240c9a9-1fb1-4086-8f06-f3a476d9b2c3",
+                "name": "about",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#about"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-b6dc8c30-6540-441f-9eda-13adf55ab139",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-02777f8d-5f60-4fc4-97e4-0a6012783ff3",
+            "attributes": [
+              {
+                "uuid": "Attribute-faef00b4-f2ca-492b-9d4b-695f9bc1d404",
+                "name": "title",
+                "uri": "http://purl.org/dc/elements/1.1/title"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-ad6f61fa-8e53-4a85-a000-f1f7e6a394ee",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-357fecde-dbd2-411c-97af-ad95e4c300c3",
+            "attributes": [
+              {
+                "uuid": "Attribute-a8e727dd-8092-49f1-bcaf-143f8444e4e6",
+                "name": "otherTitleInformation",
+                "uri": "http://rdvocab.info/Elements/otherTitleInformation"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-22af2a98-93a1-405f-ad3e-474d73ee6419",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-536f0b04-581f-4414-a736-1b26b3a4cc8c",
+            "attributes": [
+              {
+                "uuid": "Attribute-931259ed-0c60-45ad-8dec-02830b48095c",
+                "name": "alternative",
+                "uri": "http://purl.org/dc/terms/alternative"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3e687396-2633-470c-bfef-667a43c1027f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-94debedf-5d10-4475-bb10-ecef0bdac854",
+            "attributes": [
+              {
+                "uuid": "Attribute-6c0f8872-201f-4216-b153-ed81708e6a58",
+                "name": "shortTitle",
+                "uri": "http://purl.org/ontology/bibo/shortTitle"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-4ebaf327-0ce1-4fc9-a641-4d2778399748",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-47934f11-951f-4673-8dfe-87d8f29d6613",
+            "attributes": [
+              {
+                "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+                "name": "creator",
+                "uri": "http://purl.org/dc/elements/1.1/creator"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-509c6b9a-afee-408b-9d19-6f1a5faa25cd",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-11ffed61-709b-47d5-bbcf-082a01978124",
+            "attributes": [
+              {
+                "uuid": "Attribute-d4247766-4b9b-49b2-97ec-f585c40d2db9",
+                "name": "contributor",
+                "uri": "http://purl.org/dc/elements/1.1/contributor"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-69f5a2da-bb64-423d-8a4d-e9493b3b66d4",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-e1512a27-1eb2-49c7-9ef4-38ee8f8056e4",
+            "attributes": [
+              {
+                "uuid": "Attribute-31bda821-3b28-4600-81a6-7c6a3fcde481",
+                "name": "creator",
+                "uri": "http://purl.org/dc/terms/creator"
+              }
+            ]
+          },
+          "sub_schema": {
+            "uuid": "Schema-309e901c-3da9-4d82-a694-bab632eaa340",
+            "name": "foaf:Person-Schema",
+            "attribute_paths": [
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-6665a30b-647e-4109-9715-43418a9923ba",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-0bbc2366-50c1-43ba-ab60-396505f9a3b7",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-1240c9a9-1fb1-4086-8f06-f3a476d9b2c3",
+                      "name": "about",
+                      "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#about"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              },
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-934793c3-474a-4333-90c0-879b7998120f",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                      "name": "type",
+                      "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              },
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-a08a2f49-1e6f-48a0-81ee-0aacc2bd8757",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-d8cad1ab-2484-472b-8e0f-d040ed8e57b8",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-4b436814-25b1-4652-93bd-06ba0c9b203b",
+                      "name": "familyName",
+                      "uri": "http://xmlns.com/foaf/0.1/familyName"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              },
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-2174806d-f726-498a-888b-80a89058e4e6",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-44b20332-376c-4cdd-91b0-9373203b3cf9",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-68086cba-4c7f-4cfb-8c18-edcb73e97677",
+                      "name": "givenName",
+                      "uri": "http://xmlns.com/foaf/0.1/givenName"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              }
+            ],
+            "record_class": {
+              "uuid": "Clasz-7e684da4-b5b4-4c90-ac03-d88a42cf271c",
+              "name": "Person",
+              "uri": "http://xmlns.com/foaf/0.1/Person"
+            },
+            "content_schema": null
+          }
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-6a0b7610-f77e-460c-b9b9-443dbf1d1d10",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-c17fa5aa-bd44-4eb0-bd85-a56775b2ac23",
+            "attributes": [
+              {
+                "uuid": "Attribute-78b8c13b-cc1f-435d-8548-b9155eb965a0",
+                "name": "contributor",
+                "uri": "http://purl.org/dc/terms/contributor"
+              }
+            ]
+          },
+          "sub_schema": {
+            "uuid": "Schema-309e901c-3da9-4d82-a694-bab632eaa340",
+            "name": "foaf:Person-Schema",
+            "attribute_paths": [
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-6665a30b-647e-4109-9715-43418a9923ba",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-0bbc2366-50c1-43ba-ab60-396505f9a3b7",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-1240c9a9-1fb1-4086-8f06-f3a476d9b2c3",
+                      "name": "about",
+                      "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#about"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              },
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-934793c3-474a-4333-90c0-879b7998120f",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                      "name": "type",
+                      "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              },
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-a08a2f49-1e6f-48a0-81ee-0aacc2bd8757",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-d8cad1ab-2484-472b-8e0f-d040ed8e57b8",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-4b436814-25b1-4652-93bd-06ba0c9b203b",
+                      "name": "familyName",
+                      "uri": "http://xmlns.com/foaf/0.1/familyName"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              },
+              {
+                "type": "SchemaAttributePathInstance",
+                "uuid": "SchemaAttributePathInstance-2174806d-f726-498a-888b-80a89058e4e6",
+                "name": null,
+                "attribute_path": {
+                  "uuid": "AttributePath-44b20332-376c-4cdd-91b0-9373203b3cf9",
+                  "attributes": [
+                    {
+                      "uuid": "Attribute-68086cba-4c7f-4cfb-8c18-edcb73e97677",
+                      "name": "givenName",
+                      "uri": "http://xmlns.com/foaf/0.1/givenName"
+                    }
+                  ]
+                },
+                "sub_schema": null
+              }
+            ],
+            "record_class": {
+              "uuid": "Clasz-7e684da4-b5b4-4c90-ac03-d88a42cf271c",
+              "name": "Person",
+              "uri": "http://xmlns.com/foaf/0.1/Person"
+            },
+            "content_schema": null
+          }
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-cae13a6c-7f22-4c14-b2a7-4476cfb032f6",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-9c490b5d-a906-4780-ac7a-3eabcb83268a",
+            "attributes": [
+              {
+                "uuid": "Attribute-e3c4bdaa-f6f1-483c-8e24-05733b80fc9a",
+                "name": "publicationStatement",
+                "uri": "http://rdvocab.info/Elements/publicationStatement"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-2b5fc115-6815-4859-80a4-ee6418d7528c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-5ddd8103-7cb1-458c-a67e-97decc8b4c5e",
+            "attributes": [
+              {
+                "uuid": "Attribute-d04d4af2-a1df-400f-b3b7-26d08c9f858a",
+                "name": "placeOfPublication",
+                "uri": "http://rdvocab.info/Elements/placeOfPublication"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-a108e821-6931-4178-a0ce-58acaf0674e5",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-c11444e3-d726-42fe-8361-28ee7f59faf3",
+            "attributes": [
+              {
+                "uuid": "Attribute-286926a6-1bd7-4237-96a0-b05aaeecd619",
+                "name": "publisher",
+                "uri": "http://purl.org/dc/elements/1.1/publisher"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-cd920c82-0f02-42e5-aaa8-d49c5daf75db",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-21f8b9d7-2b76-483e-90ad-34e18c132270",
+            "attributes": [
+              {
+                "uuid": "Attribute-1efb31bc-d178-46a1-9e25-472b5bcecd12",
+                "name": "issued",
+                "uri": "http://purl.org/dc/terms/issued"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-31f93749-88cd-4e6d-9415-9f82f74cfb33",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-dd21833e-90a4-4d9f-b04d-0881b757c807",
+            "attributes": [
+              {
+                "uuid": "Attribute-56a8a345-becc-4877-b713-6450c2642dcf",
+                "name": "sameAs",
+                "uri": "http://www.w3.org/2002/07/owl#sameAs"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-2580c6f5-ff45-4a66-abe0-599f3583e38d",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-768694ed-1c21-41e3-9743-45d13e67ee72",
+            "attributes": [
+              {
+                "uuid": "Attribute-c3a65348-a740-4761-9437-c30732fe4e94",
+                "name": "isLike",
+                "uri": "http://umbel.org/umbel#isLike"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3108fa10-85fa-4807-8558-ae47343bfe5d",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-61a69d09-16cc-4a37-a83b-a1957e1d002a",
+            "attributes": [
+              {
+                "uuid": "Attribute-8ca98ea4-e5a0-428b-864a-b6f5417cd552",
+                "name": "issn",
+                "uri": "http://purl.org/ontology/bibo/issn"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-df42b274-a491-4f9d-b86e-b87d1d0f7341",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-e22e9c3b-5cc8-490a-810c-6ee45dce00e3",
+            "attributes": [
+              {
+                "uuid": "Attribute-5d3db17f-3290-4709-b38a-5a38a0eb3051",
+                "name": "eissn",
+                "uri": "http://purl.org/ontology/bibo/eissn"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3e37e2f6-5ae2-4b36-be8e-8f1a12f6f03f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-cb35543d-4ebb-4550-85b5-dcc4d531d8f9",
+            "attributes": [
+              {
+                "uuid": "Attribute-5f0fc4db-2ffb-49f2-94bc-6e1ad293b1da",
+                "name": "lccn",
+                "uri": "http://purl.org/ontology/bibo/lccn"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-0b99f2a3-a8ff-4eca-a711-0e6723d8652b",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-7f7cf3d0-4e02-4e3e-8bbb-a015f5776bab",
+            "attributes": [
+              {
+                "uuid": "Attribute-03d4d460-8183-4015-b200-7a810415a34d",
+                "name": "oclcnum",
+                "uri": "http://purl.org/ontology/bibo/oclcnum"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-db7600c7-ad6d-4847-b007-bcc61963c157",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-e82e25ac-140e-4c91-ab4a-32877e14985f",
+            "attributes": [
+              {
+                "uuid": "Attribute-cf619efb-1715-417d-8a48-ce0f2d77f56c",
+                "name": "isbn",
+                "uri": "http://purl.org/ontology/bibo/isbn"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-e728f1ca-0107-4002-a0fe-18a23aa65e26",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+            "attributes": [
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-eb6a7604-71a6-40fd-b371-df6336570494",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-28d6f7ad-da8f-4619-9883-3d46e165e09c",
+            "attributes": [
+              {
+                "uuid": "Attribute-60ed37f6-f6eb-46bd-89c3-7012c5c08138",
+                "name": "medium",
+                "uri": "http://purl.org/dc/terms/medium"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3a4f263d-8ca5-4264-b018-ad8bc0a71940",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-6a55fd47-9935-484d-ac5b-4f9831fe1f05",
+            "attributes": [
+              {
+                "uuid": "Attribute-3702d0c5-ee8c-47c9-a642-0c4d37cb83b6",
+                "name": "hasPart",
+                "uri": "http://purl.org/dc/terms/hasPart"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-90848e40-b304-43ba-b163-046bc434fc31",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-3ba923b8-0afc-4979-9f9d-d0fde2023467",
+            "attributes": [
+              {
+                "uuid": "Attribute-277c2800-2da7-4267-acb6-f3a4872c3a37",
+                "name": "isPartOf",
+                "uri": "http://purl.org/dc/terms/isPartOf"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3f7d72d6-600e-4d21-99be-2ac044e57741",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-45629442-1337-4d9b-80f1-9c4e864d7e5b",
+            "attributes": [
+              {
+                "uuid": "Attribute-36b49aec-5261-48a3-9212-3a9b2f004389",
+                "name": "hasVersion",
+                "uri": "http://purl.org/dc/terms/hasVersion"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8a3f17be-77c7-41ff-a6e3-4643b1496198",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a6785e21-be5a-4ee6-88a0-f366eaf7d7f0",
+            "attributes": [
+              {
+                "uuid": "Attribute-182a4b7a-dcfd-4a3f-8e68-d2d5bd7d7a94",
+                "name": "isFormatOf",
+                "uri": "http://purl.org/dc/terms/isFormatOf"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-f57bd981-48c3-423f-9f9b-9a9a31f55ac7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a96d9b5f-b143-4f1b-9559-9f14e0c7039d",
+            "attributes": [
+              {
+                "uuid": "Attribute-e2f44840-84e3-4c7b-a730-51989c5b1ded",
+                "name": "precededBy",
+                "uri": "http://rdvocab.info/Elements/precededBy"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7ab8fa29-3b05-4a77-a852-5b0fa1b24b89",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-29f299bf-ab28-4cbe-99dc-1fb8ae145d8e",
+            "attributes": [
+              {
+                "uuid": "Attribute-24c2747f-eb46-499d-959f-f60df47f8500",
+                "name": "succeededBy",
+                "uri": "http://rdvocab.info/Elements/succeededBy"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-89977cf0-91c6-4ac8-aba6-9d246ad4226b",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-807cbed8-02b8-416b-b169-aa4d8ff81217",
+            "attributes": [
+              {
+                "uuid": "Attribute-ff614cac-eb66-4857-bae1-17218920056d",
+                "name": "language",
+                "uri": "http://purl.org/dc/terms/language"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1ed3f3ec-71e9-41fc-97b3-993c356c3aa7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-c5dbb165-22d7-4e07-b640-8df78c925cd8",
+            "attributes": [
+              {
+                "uuid": "Attribute-e2a308fa-8c22-4f51-ac9e-38c84d3a3873",
+                "name": "1053",
+                "uri": "http://iflastandards.info/ns/isbd/elements/1053"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-9ed6a4bf-91ba-47fd-8dde-49e2816ad08a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-e86d75b7-aa93-4a57-9a1c-2834b01da68f",
+            "attributes": [
+              {
+                "uuid": "Attribute-61eae2e6-5350-4cf6-b43f-36bacf6ff4d0",
+                "name": "edition",
+                "uri": "http://purl.org/ontology/bibo/edition"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-cf817357-545c-49dd-ba29-7280cb7c3822",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-4f8a0873-431b-4c9f-b4cb-81c1de0d7be9",
+            "attributes": [
+              {
+                "uuid": "Attribute-93c963e8-0353-42ba-9e17-64191fac750c",
+                "name": "bibliographicCitation",
+                "uri": "http://purl.org/dc/terms/bibliographicCitation"
+              }
+            ]
+          },
+          "sub_schema": null
+        }
+      ],
+      "record_class": {
+        "uuid": "Clasz-0716798a-9059-4dd7-ba80-52e4316fcef2",
+        "name": "Document",
+        "uri": "http://purl.org/ontology/bibo/Document"
+      },
+      "content_schema": null
+    },
+    "deprecated": false
+  },
+  "selected_records": null
+}

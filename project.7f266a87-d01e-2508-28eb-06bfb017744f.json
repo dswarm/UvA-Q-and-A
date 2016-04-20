@@ -1,0 +1,3157 @@
+{
+  "uuid": "7f266a87-d01e-2508-28eb-06bfb017744f",
+  "name": "JSON example project",
+  "description": "MARC JSON record (source)",
+  "mappings": [
+    {
+      "uuid": "ca69ac3d-6447-1a74-cddc-31a1e942eb8e",
+      "name": "title",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "5c1af7bb-f0b0-a2da-cc11-cda3d22689f5",
+          "name": "variableFields_subfieldItems_data__5c1af7bb-f0b0-a2da-cc11-cda3d22689f5",
+          "attribute_path": {
+            "uuid": "AttributePath-765435d8-950f-481d-9d75-1a290a2619bf",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-308e303f-b313-4a84-bde5-e26a0f991536",
+                "name": "data",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#data"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "5a9b1f97-6046-de19-82ae-52642f3d49f5",
+            "name": null,
+            "expression": "[{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#tag\":{\"type\":\"REGEXP\",\"expression\":\"245\"}},{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldCode\":{\"type\":\"REGEXP\",\"expression\":\"a\"}}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "512babe3-5647-f68a-3e16-7327f1e00a95",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__512babe3-5647-f68a-3e16-7327f1e00a95",
+        "attribute_path": {
+          "uuid": "AttributePath-d2d776f6-8256-45ad-9508-3435066e00c7",
+          "attributes": [
+            {
+              "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+              "name": "metadata",
+              "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+            },
+            {
+              "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+              "name": "dc",
+              "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+            },
+            {
+              "uuid": "Attribute-faef00b4-f2ca-492b-9d4b-695f9bc1d404",
+              "name": "title",
+              "uri": "http://purl.org/dc/elements/1.1/title"
+            },
+            {
+              "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+              "name": "value",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "9f68f00c-243f-4e8b-58a5-c0a810164a3c",
+      "name": "author",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "f3a91416-01a7-1713-01cd-24dc8cd48295",
+          "name": "variableFields_subfieldItems_data__f3a91416-01a7-1713-01cd-24dc8cd48295",
+          "attribute_path": {
+            "uuid": "AttributePath-765435d8-950f-481d-9d75-1a290a2619bf",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-308e303f-b313-4a84-bde5-e26a0f991536",
+                "name": "data",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#data"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "65684737-d84e-241f-8e48-44f3900c36f3",
+            "name": null,
+            "expression": "[{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#tag\":{\"type\":\"EQUALS\",\"expression\":\"100\"}},{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldCode\":{\"type\":\"EQUALS\",\"expression\":\"a\"}}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "7fff2398-6dbc-a4d6-a2ca-e00f2ea2a413",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__7fff2398-6dbc-a4d6-a2ca-e00f2ea2a413",
+        "attribute_path": {
+          "uuid": "AttributePath-1bf2c06f-70ea-4285-b45a-990aa6446717",
+          "attributes": [
+            {
+              "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+              "name": "metadata",
+              "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+            },
+            {
+              "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+              "name": "dc",
+              "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+            },
+            {
+              "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+              "name": "creator",
+              "uri": "http://purl.org/dc/elements/1.1/creator"
+            },
+            {
+              "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+              "name": "value",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "dceadfed-ff96-d1b7-9af3-3e69a94713bf",
+      "name": "topic",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "6418ce7d-48cb-d372-ebcd-83b1b52a9e79",
+          "name": "variableFields_subfieldItems_data__6418ce7d-48cb-d372-ebcd-83b1b52a9e79",
+          "attribute_path": {
+            "uuid": "AttributePath-765435d8-950f-481d-9d75-1a290a2619bf",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-308e303f-b313-4a84-bde5-e26a0f991536",
+                "name": "data",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#data"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "6f0d4076-81f7-6b0e-fa79-6a8d99e81115",
+            "name": null,
+            "expression": "[{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#tag\":{\"type\":\"REGEXP\",\"expression\":\"650|651\"}},{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldCode\":{\"type\":\"REGEXP\",\"expression\":\"a\"}}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "f30ab9b1-b497-9aa9-0e30-12f8858cfac3",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__f30ab9b1-b497-9aa9-0e30-12f8858cfac3",
+        "attribute_path": {
+          "uuid": "AttributePath-92ec3070-d35b-4e97-b7e2-9e1aa05ade60",
+          "attributes": [
+            {
+              "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+              "name": "metadata",
+              "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+            },
+            {
+              "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+              "name": "dc",
+              "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+            },
+            {
+              "uuid": "Attribute-c910bc42-5e08-425a-833d-864c744950c1",
+              "name": "subject",
+              "uri": "http://purl.org/dc/elements/1.1/subject"
+            },
+            {
+              "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+              "name": "value",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "7eb9c6e4-9096-6a6f-77c9-12065a0e1394",
+      "name": "publish_date",
+      "input_attribute_paths": [
+        {
+          "type": "MappingAttributePathInstance",
+          "uuid": "88e022d9-f9fd-a4cf-cc42-ee77014bcf9d",
+          "name": "variableFields_subfieldItems_data__88e022d9-f9fd-a4cf-cc42-ee77014bcf9d",
+          "attribute_path": {
+            "uuid": "AttributePath-765435d8-950f-481d-9d75-1a290a2619bf",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-308e303f-b313-4a84-bde5-e26a0f991536",
+                "name": "data",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#data"
+              }
+            ]
+          },
+          "filter": {
+            "uuid": "3bdc2a30-8066-7d71-3cc6-7575c1c14ddc",
+            "name": null,
+            "expression": "[{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#tag\":{\"type\":\"REGEXP\",\"expression\":\"260\"}},{\"http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems\\u001ehttp://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldCode\":{\"type\":\"REGEXP\",\"expression\":\"c\"}}]"
+          }
+        }
+      ],
+      "output_attribute_path": {
+        "type": "MappingAttributePathInstance",
+        "uuid": "15c14cf6-687a-bc0a-5343-65dd91712b44",
+        "name": "__OUTPUT_MAPPING_ATTRIBUTE_PATH_INSTANCE__15c14cf6-687a-bc0a-5343-65dd91712b44",
+        "attribute_path": {
+          "uuid": "AttributePath-ca357759-dddb-4de5-a021-1970fd2114aa",
+          "attributes": [
+            {
+              "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+              "name": "metadata",
+              "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+            },
+            {
+              "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+              "name": "dc",
+              "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+            },
+            {
+              "uuid": "Attribute-95c5d48e-fc68-4705-a9fa-1840be690eb6",
+              "name": "date",
+              "uri": "http://purl.org/dc/elements/1.1/date"
+            },
+            {
+              "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+              "name": "value",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "functions": [],
+  "input_data_model": {
+    "uuid": "ef4dc7cc-1fa4-d418-fa83-c43c843423c7",
+    "name": "JSON example config",
+    "description": "JSON example config - MARC JSON record",
+    "configuration": {
+      "uuid": "7272f9e1-54b1-9ec1-58a7-4d39047512d6",
+      "name": null,
+      "description": null,
+      "resources": [
+        {
+          "uuid": "Resource-48f3cb46-7765-40a5-bc0c-a0f224f84fa6"
+        }
+      ],
+      "parameters": {
+        "storage_type": "json",
+        "record_tag": "record"
+      }
+    },
+    "schema": {
+      "uuid": "Schema-a42e34f9-3645-4c53-923b-604bceb99749",
+      "name": null,
+      "attribute_paths": [
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fccb06df-d929-401f-97d0-f73453dbabaf",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+            "attributes": [
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-915baa28-0b5a-498c-8b5f-924345527634",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f0fe2243-cb8f-4f40-8d39-b611b0452bec",
+            "attributes": [
+              {
+                "uuid": "Attribute-df8c9644-f961-4adb-bde2-a4e1f9b5a4c2",
+                "name": "controlNumber",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#controlNumber"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-cf7bafbe-87ee-4f59-b3fb-bdfb2507194a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-6f414356-8eb2-4523-82b4-887e3ac48385",
+            "attributes": [
+              {
+                "uuid": "Attribute-e52a738d-5e97-40bb-a3a6-fc70e2af8168",
+                "name": "format",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#format"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-de2901a8-3d5a-4c7c-86f6-8034cc764ad6",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-853f4ad6-4621-4c97-a23c-b12ba85d958b",
+            "attributes": [
+              {
+                "uuid": "Attribute-620df3de-8a19-4819-8779-acf28c22d794",
+                "name": "lccnIdentifiers",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#lccnIdentifiers"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-b3513fbc-1fd9-4c40-a1d9-21c49074eab6",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-54db0dde-ab25-44a2-9d56-29706e037d52",
+            "attributes": [
+              {
+                "uuid": "Attribute-db442df7-9141-43c4-b48f-8889a4cb5c69",
+                "name": "isbnIdentifiers",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#isbnIdentifiers"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-370ee5ff-79e0-4331-90f4-5c43becd6a6c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-cda5fa6b-fe61-40f9-b70d-4e071fcd6057",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-0d0f1ab8-c204-4841-8c4f-42e1ced7986a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8ae771cb-0fab-4ed1-9f50-259ce5a5866d",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-f3b13983-cf30-46d3-91fa-de1e11c4ea82",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a6cd9520-74b6-4078-b602-6ccac6dc36fd",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-2a242608-cb24-4932-9992-cb517b155c09",
+                "name": "tag",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#tag"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d65b6b6f-94e4-4969-ab31-64abd1e6cdb7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-58a46579-799d-49f6-a83b-01763f515946",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-308e303f-b313-4a84-bde5-e26a0f991536",
+                "name": "data",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#data"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-b98ed3c8-4da6-41d2-be6d-259915ad7dd3",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b3c2474c-390f-4311-b2eb-1b592829d8e0",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-1268fe39-3262-47d9-bebf-e99c05f0d2a8",
+                "name": "fixedElements",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedElements"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-e04a1d3f-0cb9-444d-899b-4a86708356e7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-c9d7a208-1a33-45e9-a983-f355af0641a3",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-1268fe39-3262-47d9-bebf-e99c05f0d2a8",
+                "name": "fixedElements",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedElements"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-605f1f49-25e3-4ff0-8012-16b264ddd693",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-253c9ddf-d14e-4f07-9ddd-c0d6b875d2f1",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-1268fe39-3262-47d9-bebf-e99c05f0d2a8",
+                "name": "fixedElements",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedElements"
+              },
+              {
+                "uuid": "Attribute-3774be39-f898-4a19-8c88-2c3d275c18ad",
+                "name": "label",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#label"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-11c2bbd8-4178-4644-b1e9-9c7490cedb8b",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-92fa5df3-3a49-4816-b6e8-43b99122907b",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-1268fe39-3262-47d9-bebf-e99c05f0d2a8",
+                "name": "fixedElements",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedElements"
+              },
+              {
+                "uuid": "Attribute-308e303f-b313-4a84-bde5-e26a0f991536",
+                "name": "data",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#data"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8c0240f4-3d28-4d8a-b9cf-949fdff18fef",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-e938ce0b-cec0-4553-91e1-d2fc36db6e34",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-1268fe39-3262-47d9-bebf-e99c05f0d2a8",
+                "name": "fixedElements",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedElements"
+              },
+              {
+                "uuid": "Attribute-285e9983-8ef3-4546-bb7b-3b4121cf86c2",
+                "name": "startingPosition",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#startingPosition"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-b5547c85-9b64-47ab-9f46-1ece33c643f9",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-0497012a-0fd5-4195-9f49-78f5aae47695",
+            "attributes": [
+              {
+                "uuid": "Attribute-dff8a675-6b4e-46b0-b543-d3c0d0a6f9e3",
+                "name": "fixedFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedFields"
+              },
+              {
+                "uuid": "Attribute-1268fe39-3262-47d9-bebf-e99c05f0d2a8",
+                "name": "fixedElements",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#fixedElements"
+              },
+              {
+                "uuid": "Attribute-84e63654-76d0-4873-a420-b8a2ce48095b",
+                "name": "length",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#length"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-4be10fa7-0048-4942-b8c6-f8b432b56c53",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-be34ae39-a7fa-41ae-a7ed-9b55b8045aa8",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7c42ff61-0072-4452-9820-38684b63e6de",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-d7e06037-931b-4fb0-bc7b-c119eb4a6033",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-95ee0c62-7a26-49e3-8c32-22eaf793334f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-7d4cc972-9d28-4dc4-8f90-00f6178c623d",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-2a242608-cb24-4932-9992-cb517b155c09",
+                "name": "tag",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#tag"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-26df8c6b-080c-4ae0-b7ac-cb8e19c0eca2",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-cd2da188-fa6c-49ad-95ea-d9d7d4cbf49c",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-fb5d0662-f1fe-4bdb-a09f-bd685a55ec3d",
+                "name": "i1",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#i1"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7425ed50-7ff5-4a51-805e-1ca15db9fe72",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-09f7c50e-f8ef-4d77-ae36-dd376a1967b8",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-d5ac9cca-4e8f-478d-a839-c8ffc0e0bf9f",
+                "name": "i2",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#i2"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-23d00a1a-6781-46fd-8a0c-938c6c821b99",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-23c63f00-6442-4b3f-8410-dbdf8d9c5873",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8288fbad-c125-44e7-8dc1-b9a84d4bd3a1",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-e4f79a99-445b-41df-a5e2-2f57741aa371",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-a05fe398-1a1f-437b-972a-022779fda2da",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8002257e-6905-4aa0-ad34-1d4f680a68db",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-817ae93b-abd4-4690-9ffd-8ac62d3fa279",
+                "name": "subfieldCode",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldCode"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-bc9a1a56-bcf3-4979-b277-caf810de31fc",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-765435d8-950f-481d-9d75-1a290a2619bf",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-308e303f-b313-4a84-bde5-e26a0f991536",
+                "name": "data",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#data"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-cc6ef86a-219e-4e09-aa71-28d226d4c294",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-127873d2-e6b6-4b7d-bcae-529ce6d0c406",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-df2e6590-64f3-4f64-a9ff-038ffe1d8b73",
+                "name": "ed",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#ed"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d89a0a2f-eafa-4fca-8585-9b18052f4192",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a204ae6e-789e-45e4-a76c-5234fb0e2201",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-b4ec257a-7d8b-400c-bad7-b5cf783f25a0",
+                "name": "ex",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#ex"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-96386b2c-6b60-4eec-8067-50f45f39d797",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f5a81032-6fb4-4301-af38-900844549e4c",
+            "attributes": [
+              {
+                "uuid": "Attribute-70985d43-f419-4568-8185-d19c9be4e42b",
+                "name": "variableFields",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#variableFields"
+              },
+              {
+                "uuid": "Attribute-c45cc18f-32a9-4d07-afcd-4c7bef6c463a",
+                "name": "subfieldItems",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#subfieldItems"
+              },
+              {
+                "uuid": "Attribute-07529297-2d56-4db5-a47c-da93b627dd6e",
+                "name": "authorityFragment",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#authorityFragment"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-2890db94-8ac1-4c82-b2e7-d4090faf8883",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-ca081558-f510-4be2-9073-80fc8a75079e",
+            "attributes": [
+              {
+                "uuid": "Attribute-55bbdd80-f885-428d-805f-2e357dd49c02",
+                "name": "admin",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#admin"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1e70653e-6a4b-4061-a3c3-ec7b69ca6b08",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-91f7cd3d-9547-4a67-a37a-efd4eccca0aa",
+            "attributes": [
+              {
+                "uuid": "Attribute-c2116bfb-c897-462e-af6d-470e6de1eeea",
+                "name": "replaceDate",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#replaceDate"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-f4301a4f-abc3-46d2-81fb-231fdb589495",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8efe8252-1625-4aa8-9017-f955197f88e3",
+            "attributes": [
+              {
+                "uuid": "Attribute-db8c0988-15ff-4a69-9786-92b274a3ab80",
+                "name": "replaceTime",
+                "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#replaceTime"
+              }
+            ]
+          },
+          "sub_schema": null
+        }
+      ],
+      "record_class": {
+        "uuid": "Clasz-7b3c5996-3ea2-4f2b-ac87-e28c078af53c",
+        "name": null,
+        "uri": "http://data.slub-dresden.de/schemas/Schema-a42e34f9-3645-4c53-923b-604bceb99749#recordType"
+      },
+      "content_schema": null
+    },
+    "deprecated": false,
+    "data_resource": {
+      "uuid": "Resource-48f3cb46-7765-40a5-bc0c-a0f224f84fa6",
+      "name": "example_marc_json_record.json",
+      "description": "JSON example - MARC JSON record",
+      "type": "FILE",
+      "configurations": [
+        {
+          "uuid": "7272f9e1-54b1-9ec1-58a7-4d39047512d6",
+          "name": null,
+          "description": null,
+          "resources": [
+            {
+              "uuid": "Resource-48f3cb46-7765-40a5-bc0c-a0f224f84fa6"
+            }
+          ],
+          "parameters": {
+            "storage_type": "json",
+            "record_tag": "record"
+          }
+        }
+      ],
+      "resource_attributes": {
+        "path": "/data/workspace/tmp/resources/example_marc_json_record.json",
+        "filesize": -1,
+        "filetype": "text/plain"
+      }
+    }
+  },
+  "output_data_model": {
+    "uuid": "DataModel-fbf2e242-0a6b-4306-9264-d0ff420398b1",
+    "name": "Internal Data Model OAI-PMH + DC Elements",
+    "description": "Internal Data Model OAI-PMH + DC Elements",
+    "schema": {
+      "uuid": "Schema-cb8f4b96-9ab2-4972-88f8-143656199518",
+      "name": "OAI-PMH + DC Elements schema",
+      "attribute_paths": [
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-280435a3-e4a7-41bd-963e-514389b4f09c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-0f13ed14-7920-4832-ac67-5ceca147bd87",
+            "attributes": [
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-543bbdab-24a8-4aaf-9843-00678955dcb0",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-ca515ee5-a509-4598-a281-dfd483cd7027",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-c984b59e-e002-4a5e-843d-57e34ff062f9",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-985b1797-492e-4a03-9007-41fb1e1203a4",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-efa8ee3a-5c10-4020-8d83-63e0f2c50d96",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-7d913334-7e9a-47c6-af42-5c7baac570ad",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-1675dff2-fbb2-419c-b437-933ada0ac1b2",
+                "name": "status",
+                "uri": "http://www.openarchives.org/OAI/2.0/status"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-51ac640d-00c2-4b48-ba91-a50f2d40a693",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-3783ee8c-2d36-4a64-998b-b41c65e0706e",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-6c20ea5a-2be9-4b60-92fc-7ad9c3e35e73",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a4eaf782-8e40-4d90-8c31-d0d4941c6df2",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-a51ed25c-ad07-4244-9cd3-68be20ea67da",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-772640bb-dbf0-45cf-b3a5-0bac62a64351",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+                "name": "identifier",
+                "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-740a496a-50f8-44f8-8cb8-b61e5c92400d",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-257aa2b6-e15a-4d15-a782-326f42bb379c",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-2b028c29-16cf-47b1-a671-c26397fb1384",
+                "name": "datestamp",
+                "uri": "http://www.openarchives.org/OAI/2.0/datestamp"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-b67be07c-f308-4d17-bd56-c98921fd1f72",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-93bf9a9c-492a-4bcc-81f0-20d9bd3b1030",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-2b028c29-16cf-47b1-a671-c26397fb1384",
+                "name": "datestamp",
+                "uri": "http://www.openarchives.org/OAI/2.0/datestamp"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1c8280b4-b93e-4c91-8ef5-a742cc44b881",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-a46eae55-543b-4f16-9b50-788310d9265e",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-2b028c29-16cf-47b1-a671-c26397fb1384",
+                "name": "datestamp",
+                "uri": "http://www.openarchives.org/OAI/2.0/datestamp"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3ee0c883-5806-4020-9cd4-530d57b01df8",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8132f3de-e477-4fb1-954a-dd14cf300722",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-49eca422-f15b-4096-8686-0db22eb47e85",
+                "name": "setSpec",
+                "uri": "http://www.openarchives.org/OAI/2.0/setSpec"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-54f4c36b-f00a-40c0-a255-3de90067068c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-ef60c916-3e08-41b3-8e7b-d5ba1ec54d62",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-49eca422-f15b-4096-8686-0db22eb47e85",
+                "name": "setSpec",
+                "uri": "http://www.openarchives.org/OAI/2.0/setSpec"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-e02641c3-eca3-47a8-ad75-d98e445e7ed8",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-cf0d7f97-51a2-4b63-8817-78b207fdc06d",
+            "attributes": [
+              {
+                "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+                "name": "header",
+                "uri": "http://www.openarchives.org/OAI/2.0/header"
+              },
+              {
+                "uuid": "Attribute-49eca422-f15b-4096-8686-0db22eb47e85",
+                "name": "setSpec",
+                "uri": "http://www.openarchives.org/OAI/2.0/setSpec"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d1a7458c-e57d-4413-a198-ba5fa34f3890",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-48658cc1-1008-4e4c-a3e2-ffbd221dae77",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-a0d3b674-fe13-47fe-bc56-2b9f38969e08",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8db6ff08-c85d-4078-999d-2082e98f86bd",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-125b4648-d7ee-4792-b9e4-80cbdd55ccd9",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-3432271b-8e7b-44fd-adb4-c27fcaf3a523",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-da6f8d27-c95e-4f1f-9c58-4186f34a9f1a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-2f5eb911-e18c-4339-a5da-08980a9d7735",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-faef00b4-f2ca-492b-9d4b-695f9bc1d404",
+                "name": "title",
+                "uri": "http://purl.org/dc/elements/1.1/title"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-afccfae1-c75e-46b4-81e1-70b47bc522b6",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-6b6eb08a-d681-4dec-936a-2f4e001b96f5",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-faef00b4-f2ca-492b-9d4b-695f9bc1d404",
+                "name": "title",
+                "uri": "http://purl.org/dc/elements/1.1/title"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-6030e81d-7a27-4ad0-a4c0-efc092a8eed7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-16825d39-6f5e-47fb-9553-56e2e96de862",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-faef00b4-f2ca-492b-9d4b-695f9bc1d404",
+                "name": "title",
+                "uri": "http://purl.org/dc/elements/1.1/title"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7b4e6d8e-6e38-4f10-8148-dfa2c41e9382",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-d2d776f6-8256-45ad-9508-3435066e00c7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-faef00b4-f2ca-492b-9d4b-695f9bc1d404",
+                "name": "title",
+                "uri": "http://purl.org/dc/elements/1.1/title"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d5235486-114d-4c36-85a1-b18a8f624fea",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-55140857-c816-47e7-8e82-965a5d3add2c",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+                "name": "creator",
+                "uri": "http://purl.org/dc/elements/1.1/creator"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d8c8e064-0e6b-4e99-8d4a-3e7d02287bd7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-46604efd-6169-417d-8cb2-4fd2fe3fcf4b",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+                "name": "creator",
+                "uri": "http://purl.org/dc/elements/1.1/creator"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-5937a350-3e8d-4553-aee9-a878402e7782",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b595afe7-c0b7-4bd2-a0be-bb425c3c29c2",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+                "name": "creator",
+                "uri": "http://purl.org/dc/elements/1.1/creator"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-47bae533-37e0-47a4-8267-280d08b0ccf5",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-1bf2c06f-70ea-4285-b45a-990aa6446717",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-6efbfeee-1424-45b5-a0ac-513191179dc5",
+                "name": "creator",
+                "uri": "http://purl.org/dc/elements/1.1/creator"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1f894641-9757-4153-a546-c92677cc507a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-2d0d28ef-0d1f-48b1-ab9c-a642a389af83",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-c910bc42-5e08-425a-833d-864c744950c1",
+                "name": "subject",
+                "uri": "http://purl.org/dc/elements/1.1/subject"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-4948403d-2298-4cf0-802b-adff01b33fe7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-af20da7e-c502-4f92-bad2-01a515a67ee2",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-c910bc42-5e08-425a-833d-864c744950c1",
+                "name": "subject",
+                "uri": "http://purl.org/dc/elements/1.1/subject"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-abd864a9-10f9-4f8f-85d3-811828464d0e",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b49395fd-f650-4ee4-bc5b-08f7d037f87f",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-c910bc42-5e08-425a-833d-864c744950c1",
+                "name": "subject",
+                "uri": "http://purl.org/dc/elements/1.1/subject"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-ca14cc3c-b485-4d25-8365-338d69e1bd80",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-92ec3070-d35b-4e97-b7e2-9e1aa05ade60",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-c910bc42-5e08-425a-833d-864c744950c1",
+                "name": "subject",
+                "uri": "http://purl.org/dc/elements/1.1/subject"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-5f330624-a5d7-4eed-82b2-c4dee79e586a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-32817575-a369-40b1-a79d-0efd796a9e75",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-52f9b74e-6376-4d2b-9819-8f5ab5f85b47",
+                "name": "description",
+                "uri": "http://purl.org/dc/elements/1.1/description"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fbd6e376-f29d-4238-83d4-7b3a0d40762b",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-2fe861e1-dd63-461a-a0e0-412ded0c15d9",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-52f9b74e-6376-4d2b-9819-8f5ab5f85b47",
+                "name": "description",
+                "uri": "http://purl.org/dc/elements/1.1/description"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7ecce8cb-8857-4ff7-8e4e-e6076c5957b4",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f7568939-c49c-4151-b5fa-fe446f016ae0",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-52f9b74e-6376-4d2b-9819-8f5ab5f85b47",
+                "name": "description",
+                "uri": "http://purl.org/dc/elements/1.1/description"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-194b0abc-2edb-4a07-b79e-a47414f63bd7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b4a69514-6602-42ad-84a8-b9311f101840",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-52f9b74e-6376-4d2b-9819-8f5ab5f85b47",
+                "name": "description",
+                "uri": "http://purl.org/dc/elements/1.1/description"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-5c09b1af-8e24-4c0e-8aeb-bb4163f66b26",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8d372b8b-32db-4238-88e0-5162b1d591ba",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-286926a6-1bd7-4237-96a0-b05aaeecd619",
+                "name": "publisher",
+                "uri": "http://purl.org/dc/elements/1.1/publisher"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-4dd2439d-b6d2-4746-91d0-653a397c6aeb",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-366f27f3-3496-43fa-800d-5cf26956c2c0",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-286926a6-1bd7-4237-96a0-b05aaeecd619",
+                "name": "publisher",
+                "uri": "http://purl.org/dc/elements/1.1/publisher"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-ba115c61-f47d-43f0-be4c-8b6260780ae7",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-26c411ad-d935-4155-9ba2-51d84d28fff4",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-286926a6-1bd7-4237-96a0-b05aaeecd619",
+                "name": "publisher",
+                "uri": "http://purl.org/dc/elements/1.1/publisher"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-005c0be6-592f-4c00-8c1f-ff080d454d4a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-d3394780-a1aa-457d-a813-44140346c793",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-286926a6-1bd7-4237-96a0-b05aaeecd619",
+                "name": "publisher",
+                "uri": "http://purl.org/dc/elements/1.1/publisher"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-2f88188f-6fc5-4fb2-9bb9-8b32ff0654a0",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-79b63fe8-5549-456c-88c2-12c5a392006b",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-d4247766-4b9b-49b2-97ec-f585c40d2db9",
+                "name": "contributor",
+                "uri": "http://purl.org/dc/elements/1.1/contributor"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-ca773423-e93f-4d84-81f7-7b1ed953f181",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-446b85c7-0424-4da0-9adc-f3114c837d58",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-d4247766-4b9b-49b2-97ec-f585c40d2db9",
+                "name": "contributor",
+                "uri": "http://purl.org/dc/elements/1.1/contributor"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8047c8b8-de84-478a-b334-5890b8a05130",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-4add8dc5-e58c-4468-b505-6a49c72926c3",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-d4247766-4b9b-49b2-97ec-f585c40d2db9",
+                "name": "contributor",
+                "uri": "http://purl.org/dc/elements/1.1/contributor"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d4c96311-bece-4d8c-8e60-e13e7f6d11e6",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-59db9f83-b8d9-457a-8d9f-baebd18a878a",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-d4247766-4b9b-49b2-97ec-f585c40d2db9",
+                "name": "contributor",
+                "uri": "http://purl.org/dc/elements/1.1/contributor"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-b32a6b76-45f5-412a-9a84-fda0cd90f3ac",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f7744641-5f13-4a85-a661-544e57a34c46",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-95c5d48e-fc68-4705-a9fa-1840be690eb6",
+                "name": "date",
+                "uri": "http://purl.org/dc/elements/1.1/date"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-ae730744-62c9-4261-99e4-e8162a1a7a2e",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-fcb432e9-f612-4c4b-899b-40d019f31135",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-95c5d48e-fc68-4705-a9fa-1840be690eb6",
+                "name": "date",
+                "uri": "http://purl.org/dc/elements/1.1/date"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-3929597c-8c21-4e31-8fe1-81e47a906cbd",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-40a8b813-e454-437a-9d65-0744b2547be2",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-95c5d48e-fc68-4705-a9fa-1840be690eb6",
+                "name": "date",
+                "uri": "http://purl.org/dc/elements/1.1/date"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-42b78c88-f434-48d8-aeeb-15f9eb3d4bad",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-ca357759-dddb-4de5-a021-1970fd2114aa",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-95c5d48e-fc68-4705-a9fa-1840be690eb6",
+                "name": "date",
+                "uri": "http://purl.org/dc/elements/1.1/date"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-41f0342b-57ef-4b1e-a475-3fda319dd34d",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-0346b81b-b9a3-4640-a109-ff1b2b3406cc",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-b63700df-f0f5-4fb8-8b44-9ca8233b527e",
+                "name": "type",
+                "uri": "http://purl.org/dc/elements/1.1/type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-bfe81a9a-60ad-4019-85e9-e4357c18045f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-ec6b4d53-5a0d-4c56-a84a-a594390cd4cc",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-b63700df-f0f5-4fb8-8b44-9ca8233b527e",
+                "name": "type",
+                "uri": "http://purl.org/dc/elements/1.1/type"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-897d15b9-7762-4bac-a5f2-34a064ba6c82",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f5440f05-f5c8-4005-a572-bf95040c3127",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-b63700df-f0f5-4fb8-8b44-9ca8233b527e",
+                "name": "type",
+                "uri": "http://purl.org/dc/elements/1.1/type"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-f9cf30bb-ba08-46a1-b7d1-ddc51b7b3359",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b4dbce40-64a7-4105-b0b4-d54f0468cbb6",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-b63700df-f0f5-4fb8-8b44-9ca8233b527e",
+                "name": "type",
+                "uri": "http://purl.org/dc/elements/1.1/type"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-450d3956-af4b-46cc-97a7-45c2a482c11f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-959cd970-b8ac-45ca-b1aa-812dab2d2977",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-541479fe-e7d5-4d78-aa53-f491b9256c16",
+                "name": "format",
+                "uri": "http://purl.org/dc/elements/1.1/format"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8a2c58f0-5c8a-47ba-843c-ec56bce35e86",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-bd62add9-6549-4757-98ca-a088dc2e02ec",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-541479fe-e7d5-4d78-aa53-f491b9256c16",
+                "name": "format",
+                "uri": "http://purl.org/dc/elements/1.1/format"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-20dac4ab-5e37-4882-84f2-8120e4637e47",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-05446c2e-85fc-4442-895e-d6f808518345",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-541479fe-e7d5-4d78-aa53-f491b9256c16",
+                "name": "format",
+                "uri": "http://purl.org/dc/elements/1.1/format"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-1aa332b9-f9b6-4dc0-b8d9-99d49cc3817c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-fcd2a35b-cd01-4d21-b413-7131b493f57a",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-541479fe-e7d5-4d78-aa53-f491b9256c16",
+                "name": "format",
+                "uri": "http://purl.org/dc/elements/1.1/format"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-01941c83-5971-49d1-bfca-c29777717c5e",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-26c0374b-88db-46fb-a2bb-4e94ea2d4bd7",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-f3f6c776-6821-4d89-b46f-42535fd2433e",
+                "name": "identifier",
+                "uri": "http://purl.org/dc/elements/1.1/identifier"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fdb8e4b4-32d2-43be-98a4-b14481d16df8",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-529ec735-1979-43b5-9d4b-d43c66878e5a",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-f3f6c776-6821-4d89-b46f-42535fd2433e",
+                "name": "identifier",
+                "uri": "http://purl.org/dc/elements/1.1/identifier"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-25426dc2-4dad-4fc3-a98d-764729771bb5",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b7de4c5b-258a-43f0-b48c-3477a6c9e685",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-f3f6c776-6821-4d89-b46f-42535fd2433e",
+                "name": "identifier",
+                "uri": "http://purl.org/dc/elements/1.1/identifier"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-caf5ef12-22b4-4b5d-92ae-60c3e9e70f6f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-bc13dfb0-9df1-4fff-b5cc-154df452278f",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-f3f6c776-6821-4d89-b46f-42535fd2433e",
+                "name": "identifier",
+                "uri": "http://purl.org/dc/elements/1.1/identifier"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7002eb05-e74c-43fb-982b-1a5828b99d65",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-fade8e92-309f-487a-93af-7c3d838ca0ba",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-436dfb36-ed80-40af-96a4-0a26738148f8",
+                "name": "source",
+                "uri": "http://purl.org/dc/elements/1.1/source"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-43e62a3b-d084-4b33-aa08-07002c727890",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-697f058e-a33a-4fe2-a7ab-813e93b88626",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-436dfb36-ed80-40af-96a4-0a26738148f8",
+                "name": "source",
+                "uri": "http://purl.org/dc/elements/1.1/source"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-808fb45d-dbe7-45ec-8f16-6b7503d0769c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-06e5004a-70eb-4f04-acc7-4622c7e7f40d",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-436dfb36-ed80-40af-96a4-0a26738148f8",
+                "name": "source",
+                "uri": "http://purl.org/dc/elements/1.1/source"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fe316712-6533-4403-9e16-6539f7bc979b",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-28a2668c-766b-49fd-816c-9a1aefab39de",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-436dfb36-ed80-40af-96a4-0a26738148f8",
+                "name": "source",
+                "uri": "http://purl.org/dc/elements/1.1/source"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-4569741a-6fd3-4a23-922f-cb4aab24f194",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-73983dcb-8b2a-4b0b-9d75-7aaf66e2091a",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-1e70fa06-8e6d-43c7-ac06-c39386440a02",
+                "name": "language",
+                "uri": "http://purl.org/dc/elements/1.1/language"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-195b6eb1-6b52-4055-b8bc-95c16a7eb0ca",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-78facb53-a47a-4a32-8961-6c3d16b77289",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-1e70fa06-8e6d-43c7-ac06-c39386440a02",
+                "name": "language",
+                "uri": "http://purl.org/dc/elements/1.1/language"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fcb7b8f4-03cd-4b00-bc18-4a1f5766a1e1",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-d92fefca-9e1f-408e-a6c3-b240be857692",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-1e70fa06-8e6d-43c7-ac06-c39386440a02",
+                "name": "language",
+                "uri": "http://purl.org/dc/elements/1.1/language"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-7d667425-5096-472f-b20b-203df132b4a9",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-fc2544a1-b1ab-4347-94fb-7bf1866c9435",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-1e70fa06-8e6d-43c7-ac06-c39386440a02",
+                "name": "language",
+                "uri": "http://purl.org/dc/elements/1.1/language"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8bc33aa3-5d2d-426f-a6c9-16a7451d8267",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-cc986734-20c0-4d32-ba6f-0a77a9890774",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-2363a783-6a00-475e-9f16-9299c28298b3",
+                "name": "relation",
+                "uri": "http://purl.org/dc/elements/1.1/relation"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-c5a8541b-7ecf-4355-a6ba-1d67daf14359",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b6ba1e63-ecd0-45fe-9fb1-a64b801ad231",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-2363a783-6a00-475e-9f16-9299c28298b3",
+                "name": "relation",
+                "uri": "http://purl.org/dc/elements/1.1/relation"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-8f2e151f-a3d5-46ba-a919-b6a95622883f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-db96eb15-afcc-4d6b-a290-74e594a788b3",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-2363a783-6a00-475e-9f16-9299c28298b3",
+                "name": "relation",
+                "uri": "http://purl.org/dc/elements/1.1/relation"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-4ca3da5e-f432-4f3c-a9eb-28638985b60c",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-2f244728-aa43-44a2-896e-95fd0e8ad96f",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-2363a783-6a00-475e-9f16-9299c28298b3",
+                "name": "relation",
+                "uri": "http://purl.org/dc/elements/1.1/relation"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-635713e8-80f9-4fe7-be93-f4f625c756c8",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-9da7f3df-f847-442d-a3ae-fb3278fc6fd8",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-0af1acb0-d2b8-41fe-924f-24e1b552eae9",
+                "name": "coverage",
+                "uri": "http://purl.org/dc/elements/1.1/coverage"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-43415ab0-c10e-4d20-be4c-d25ba145b817",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-d2372a59-c344-4af9-bb9d-6940e31237c1",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-0af1acb0-d2b8-41fe-924f-24e1b552eae9",
+                "name": "coverage",
+                "uri": "http://purl.org/dc/elements/1.1/coverage"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d78af97e-fcb7-46ee-96b7-66d3691ee6f3",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-b674b797-9968-4b52-8d71-8003f689fe9f",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-0af1acb0-d2b8-41fe-924f-24e1b552eae9",
+                "name": "coverage",
+                "uri": "http://purl.org/dc/elements/1.1/coverage"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-fe738d69-a4c7-4a52-bc19-fee9c187cc6a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-298dcbd6-4cad-4b15-8b8f-17626c6fbc1c",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-0af1acb0-d2b8-41fe-924f-24e1b552eae9",
+                "name": "coverage",
+                "uri": "http://purl.org/dc/elements/1.1/coverage"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-309914af-8143-4ea7-97f1-64839ae2cd1f",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-34afbda0-9f42-4608-939c-3a3057e7bf4a",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-08f9b44c-d0c7-4564-b3b2-e73901a5ad62",
+                "name": "rights",
+                "uri": "http://purl.org/dc/elements/1.1/rights"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-2f789856-f321-48d9-8bdf-1ae18143903e",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-fb4aca8c-8957-4b84-b053-4cc1eac99937",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-08f9b44c-d0c7-4564-b3b2-e73901a5ad62",
+                "name": "rights",
+                "uri": "http://purl.org/dc/elements/1.1/rights"
+              },
+              {
+                "uuid": "Attribute-940425c7-cf49-4c52-a8e4-7b22506b475f",
+                "name": "type",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-94cf1249-84de-419f-bffb-86cb67572c6a",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-d67b0309-b8c5-43cc-8244-b79516a4b22d",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-08f9b44c-d0c7-4564-b3b2-e73901a5ad62",
+                "name": "rights",
+                "uri": "http://purl.org/dc/elements/1.1/rights"
+              },
+              {
+                "uuid": "Attribute-b40681e6-4a82-45ba-9722-a745afbbdb93",
+                "name": "lang",
+                "uri": "http://www.w3.org/XML/1998/namespace#lang"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-d22e90b9-f77c-48c3-a00e-959ad9952633",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-8f1806af-207b-4dd9-991c-eecf305efdbb",
+            "attributes": [
+              {
+                "uuid": "Attribute-6b1acdfd-233a-4e35-a5eb-515860ba1ecc",
+                "name": "metadata",
+                "uri": "http://www.openarchives.org/OAI/2.0/metadata"
+              },
+              {
+                "uuid": "Attribute-ae222e62-c915-41b1-a192-e74781e674fb",
+                "name": "dc",
+                "uri": "http://www.openarchives.org/OAI/2.0/oai_dc/dc"
+              },
+              {
+                "uuid": "Attribute-08f9b44c-d0c7-4564-b3b2-e73901a5ad62",
+                "name": "rights",
+                "uri": "http://purl.org/dc/elements/1.1/rights"
+              },
+              {
+                "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+                "name": "value",
+                "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+              }
+            ]
+          },
+          "sub_schema": null
+        },
+        {
+          "type": "SchemaAttributePathInstance",
+          "uuid": "SchemaAttributePathInstance-93fde21f-01a4-4997-aebf-e85d21613153",
+          "name": null,
+          "attribute_path": {
+            "uuid": "AttributePath-f204e1a9-4f68-4418-b167-3047dd9c98b3",
+            "attributes": [
+              {
+                "uuid": "Attribute-d79ef794-1c15-4d93-8f45-ed53167f2e67",
+                "name": "about",
+                "uri": "http://www.openarchives.org/OAI/2.0/about"
+              }
+            ]
+          },
+          "sub_schema": null
+        }
+      ],
+      "record_class": {
+        "uuid": "Clasz-30dae66a-495c-49f7-b04f-6430d6d37399",
+        "name": "recordType",
+        "uri": "http://www.openarchives.org/OAI/2.0/recordType"
+      },
+      "content_schema": {
+        "uuid": "ContentSchema-9557cd7b-68d2-42fe-812f-6d2d3d089a9f",
+        "name": "OAI-PMH + DC Elements content schema",
+        "record_identifier_attribute_path": {
+          "uuid": "AttributePath-772640bb-dbf0-45cf-b3a5-0bac62a64351",
+          "attributes": [
+            {
+              "uuid": "Attribute-1a7db022-2e35-47aa-ada1-b118b959610a",
+              "name": "header",
+              "uri": "http://www.openarchives.org/OAI/2.0/header"
+            },
+            {
+              "uuid": "Attribute-57ea531c-951c-4e1f-bcfd-47aa750f56ec",
+              "name": "identifier",
+              "uri": "http://www.openarchives.org/OAI/2.0/identifier"
+            },
+            {
+              "uuid": "Attribute-06d09c8d-465d-417c-9b7f-0a3a2ca78b2d",
+              "name": "value",
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+            }
+          ]
+        },
+        "key_attribute_paths": null,
+        "value_attribute_path": null
+      }
+    },
+    "deprecated": false
+  },
+  "selected_records": null
+}

@@ -1,0 +1,6 @@
+{
+  "data_model_uri": "http://data.slub-dresden.de/datamodel/DataModel-cf998267-392a-4d87-a33a-88dd1bffb016/data",
+  "deprecate_missing_records": "false",
+  "record_class_uri": "http://purl.org/ontology/bibo/Document",
+  "enable_versioning": "true"
+}
