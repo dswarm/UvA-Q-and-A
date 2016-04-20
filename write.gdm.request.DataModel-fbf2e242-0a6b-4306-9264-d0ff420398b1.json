@@ -1,9 +1,0 @@
-{
-  "data_model_uri": "http://data.slub-dresden.de/datamodel/DataModel-fbf2e242-0a6b-4306-9264-d0ff420398b1/data",
-  "content_schema": {
-    "record_identifier_attribute_path": "http://www.openarchives.org/OAI/2.0/header\u001ehttp://www.openarchives.org/OAI/2.0/identifier\u001ehttp://www.w3.org/1999/02/22-rdf-syntax-ns#value"
-  },
-  "deprecate_missing_records": "false",
-  "record_class_uri": "http://www.openarchives.org/OAI/2.0/recordType",
-  "enable_versioning": "true"
-}

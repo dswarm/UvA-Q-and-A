@@ -1,9 +1,0 @@
-{
-  "data_model_uri": "http://data.slub-dresden.de/datamodel/DataModel-a65018b1-d27b-4125-9eff-5f6fd860079d/data",
-  "content_schema": {
-    "record_identifier_attribute_path": "http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib#control\u001ehttp://www.exlibrisgroup.com/xsd/primo/primo_nm_bib#sourcerecordid\u001ehttp://www.w3.org/1999/02/22-rdf-syntax-ns#value"
-  },
-  "deprecate_missing_records": "false",
-  "record_class_uri": "http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib#recordType",
-  "enable_versioning": "true"
-}
